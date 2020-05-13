@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\interdisciplinary assignment\\kreaTid\\kreaTid\\kreaTid.csproj",
+      "projectUniqueName": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\kreaTid.csproj",
       "projectName": "kreaTid",
-      "projectPath": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\interdisciplinary assignment\\kreaTid\\kreaTid\\kreaTid.csproj",
+      "projectPath": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\kreaTid.csproj",
       "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\interdisciplinary assignment\\kreaTid\\kreaTid\\obj\\",
+      "outputPath": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
