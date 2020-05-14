@@ -8,7 +8,7 @@ namespace kreaTid.Models
     public class BlogPostImg
     {
         //fields
-        public int ImgId { get; set; }
+        public int BlogPostImgId { get; set; }
 
         public string ImgFileUrl { get; set; }
 
@@ -17,19 +17,19 @@ namespace kreaTid.Models
         //type = cover, banner og blogpostimg
         public string ImgType { get; set; }
 
-        public int BlogId { get; }
+        public int BlogPostId { get; set; }
 
 
         //constructor
         public BlogPostImg() { }
 
-        public BlogPostImg(int imgId, string imgfileUrl, string imgAltText, string imgType, int blogId)
+        public BlogPostImg(int imgId, string imgfileUrl, string imgAltText, string imgType, int blogPostId)
         {
-            ImgId = imgId;
+            BlogPostImgId = imgId;
             ImgFileUrl = imgfileUrl;
             ImgAltText = imgAltText;
             ImgType = imgType;
-            BlogId = blogId;
+            BlogPostId = blogPostId;
         }
 
     }

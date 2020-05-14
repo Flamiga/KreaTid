@@ -16,19 +16,19 @@ namespace kreaTid.Models
 
         public string ProductImgType { get; set; }
 
-        public int BlogId { get; }
+        public int BlogPostId { get; set; }
 
         // constructor
 
         public ProductImg() { }
 
-        public ProductImg(int productImgId, string productImgFileUrl, string productImgAltText, string productImgType, int blogId)
+        public ProductImg(int productImgId, string productImgFileUrl, string productImgAltText, string productImgType, int blogPostId)
         {
             ProductImgId = productImgId;
             ProductImgFileUrl = productImgFileUrl;
             ProductImgAltText = productImgAltText;
             ProductImgType = productImgType;
-            BlogId = blogId;
+            BlogPostId = blogPostId;
         }
     }
 }

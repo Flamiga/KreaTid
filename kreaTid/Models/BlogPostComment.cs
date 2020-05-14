@@ -19,20 +19,20 @@ namespace kreaTid.Models
 
         public DateTime BlogPostCommentLastUpdated { get; set; }
 
-        public int BlogId { get; }
+        public int BlogPostId { get; set; }
 
         //constructor 
 
         public BlogPostComment() { }
 
-        public BlogPostComment(int blogPostCommentId, string blogPostCommentUser, string blogPostCommentText, DateTime blogPostCommentPublishDate, DateTime blogPostCommentLastUpdated, int blogId)
+        public BlogPostComment(int blogPostCommentId, string blogPostCommentUser, string blogPostCommentText, DateTime blogPostCommentPublishDate, DateTime blogPostCommentLastUpdated, int blogPostId)
         {
             BlogPostCommentId = blogPostCommentId;
             BlogPostCommentUser = blogPostCommentUser;
             BlogPostCommentText = blogPostCommentText;
             BlogPostCommentPublishDate = blogPostCommentPublishDate;
             BlogPostCommentLastUpdated = blogPostCommentLastUpdated;
-            BlogId = blogId;
+            BlogPostId = blogPostId;
         }
 
     }

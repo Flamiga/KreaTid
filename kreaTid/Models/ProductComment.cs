@@ -18,7 +18,9 @@ namespace kreaTid.Models
 
         public DateTime ProductCommentLastUpdated { get; set; }
 
-        public int ProductId { get; }
+        public int ProductId { get; set; }
+
+        public Product Product { get; set; }
 
         //constructor 
 

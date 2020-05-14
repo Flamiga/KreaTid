@@ -15,27 +15,28 @@ namespace kreaTid.Models
 
         public decimal ProductPrice { get; set; }
 
-        public int CategoryId { get; }
+        public int CategoryId { get; set; }
         public string ProductDescription { get; set; }
 
-        public ProductImg ProductImg { get; set; }
+        public List<ProductImg> ProductImgs { get; set; }
 
-        public ProductComment ProductComments { get; set; }
+        public List<ProductComment> ProductComments { get; set; }
+
+        public Category Category { get; set; }
 
 
         //constructor
 
         public Product() { }
 
-        public Product(int productId, string productName, decimal productPrice, int categoryId, string productDescription, ProductImg productImg, ProductComment productComments)
+        public Product(int productId, string productName, decimal productPrice, int categoryId, string productDescription)
         {
             ProductId = productId;
             ProductName = productName;
             ProductPrice = productPrice;
             CategoryId = categoryId;
             ProductDescription = productDescription;
-            ProductImg = productImg;
-            ProductComments = productComments;
+
         }
 
     }

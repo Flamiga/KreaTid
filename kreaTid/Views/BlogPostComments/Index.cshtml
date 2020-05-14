@@ -1,0 +1,53 @@
+﻿@model IEnumerable<kreaTid.Models.BlogPostComment>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BlogPostCommentUser)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BlogPostCommentText)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BlogPostCommentPublishDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BlogPostCommentLastUpdated)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BlogPostCommentUser)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BlogPostCommentText)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BlogPostCommentPublishDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BlogPostCommentLastUpdated)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.BlogPostCommentId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.BlogPostCommentId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.BlogPostCommentId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

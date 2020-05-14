@@ -15,22 +15,21 @@ namespace kreaTid.Models
 
         public string BlogPostContent { get; set; }
 
-        public BlogPostImg BlogPostImg { get; }
+        public List<BlogPostImg> BlogPostImgs { get; }
 
-        public BlogPostComment BlogPostComment { get; }
+        public List<BlogPostComment> BlogPostComments { get; }
 
 
         //constructor
 
         public BlogPost() { }
 
-        public BlogPost(int blogPostId, string blogPostTitle, DateTime blogPostDate, string blogPostcontent, BlogPostImg blogPostImg)
+        public BlogPost(int blogPostId, string blogPostTitle, DateTime blogPostDate, string blogPostcontent)
         {
             BlogPostId = blogPostId;
             BlogPostTitle = blogPostTitle;
             BlogPostDate = blogPostDate;
             BlogPostContent = blogPostcontent;
-            BlogPostImg = blogPostImg;
 
         }
     }
