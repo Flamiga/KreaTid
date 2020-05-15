@@ -39,5 +39,17 @@ namespace kreaTid.Models
 
         }
 
+        //add comment with a method
+        public void AddComment(ProductComment productComment)
+        {
+            ProductComments.Add(productComment);
+        }
+        //add an image with a method
+        public void AddImg(ProductImg productImg)
+        {
+            ProductImgs.Add(productImg);
+        }
+
+
     }
 }

@@ -32,5 +32,15 @@ namespace kreaTid.Models
             BlogPostContent = blogPostcontent;
 
         }
+
+        public void AddPostComment(BlogPostComment blogPostComment)
+        {
+            BlogPostComments.Add(blogPostComment);
+        }
+
+        public void AddPostImg(BlogPostImg blogPostImg)
+        {
+            BlogPostImgs.Add(blogPostImg);
+        }
     }
 }
