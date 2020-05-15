@@ -8584,19 +8584,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\John\\.nuget\\packages\\": {}
+    "C:\\Users\\Dorthea Windows 10\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\kreaTid.csproj",
+      "projectUniqueName": "C:\\Users\\Dorthea Windows 10\\OneDrive\\Desktop\\KreaTid\\KreaTid\\kreaTid\\kreaTid.csproj",
       "projectName": "kreaTid",
-      "projectPath": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\kreaTid.csproj",
-      "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\obj\\",
+      "projectPath": "C:\\Users\\Dorthea Windows 10\\OneDrive\\Desktop\\KreaTid\\KreaTid\\kreaTid\\kreaTid.csproj",
+      "packagesPath": "C:\\Users\\Dorthea Windows 10\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dorthea Windows 10\\OneDrive\\Desktop\\KreaTid\\KreaTid\\kreaTid\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dorthea Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8657,7 +8657,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
