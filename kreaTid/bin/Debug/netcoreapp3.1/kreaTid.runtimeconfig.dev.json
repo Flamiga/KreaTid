@@ -1,8 +1,13 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "C:\\Users\\Dorthea Windows 10\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\Dorthea Windows 10\\.nuget\\packages"
+=======
+      "C:\\Users\\Bruker\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Bruker\\.nuget\\packages"
+>>>>>>> master
     ]
   }
 }

@@ -8584,11 +8584,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Dorthea Windows 10\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Bruker\\.nuget\\packages\\": {}
+>>>>>>> master
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Dorthea Windows 10\\OneDrive\\Desktop\\KreaTid\\KreaTid\\kreaTid\\kreaTid.csproj",
       "projectName": "kreaTid",
       "projectPath": "C:\\Users\\Dorthea Windows 10\\OneDrive\\Desktop\\KreaTid\\KreaTid\\kreaTid\\kreaTid.csproj",
@@ -8597,6 +8602,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dorthea Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\kreaTid.csproj",
+      "projectName": "kreaTid",
+      "projectPath": "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\kreaTid.csproj",
+      "packagesPath": "C:\\Users\\Bruker\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Bruker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
