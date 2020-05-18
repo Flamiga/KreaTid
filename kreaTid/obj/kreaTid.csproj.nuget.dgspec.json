@@ -2,6 +2,7 @@
   "format": 1,
   "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\Dorthea Windows 10\\OneDrive\\Desktop\\KreaTid\\KreaTid\\kreaTid\\kreaTid.csproj": {}
   },
   "projects": {
@@ -18,19 +19,26 @@
           "C:\\Users\\Dorthea Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
 =======
     "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\kreaTid.csproj": {}
+=======
+    "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\kreaTid.csproj": {}
+>>>>>>> master
   },
   "projects": {
-    "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\kreaTid.csproj": {
+    "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\kreaTid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\kreaTid.csproj",
+        "projectUniqueName": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\kreaTid.csproj",
         "projectName": "kreaTid",
-        "projectPath": "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\kreaTid.csproj",
-        "packagesPath": "C:\\Users\\Bruker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\obj\\",
+        "projectPath": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\kreaTid.csproj",
+        "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Bruker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
+=======
+          "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> master
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -55,19 +63,27 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.4, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.4, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -92,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
