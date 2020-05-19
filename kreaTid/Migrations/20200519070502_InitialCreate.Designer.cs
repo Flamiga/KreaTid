@@ -10,14 +10,14 @@ using kreaTid.Data;
 namespace kreaTid.Migrations
 {
     [DbContext(typeof(kreaTidContext))]
-    [Migration("20200514094328_InitialCreate")]
+    [Migration("20200519070502_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.2")
+                .HasAnnotation("ProductVersion", "3.1.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -40,6 +40,15 @@ namespace kreaTid.Migrations
                     b.HasKey("BlogPostId");
 
                     b.ToTable("BlogPost");
+
+                    b.HasData(
+                        new
+                        {
+                            BlogPostId = 1,
+                            BlogPostContent = "what th",
+                            BlogPostDate = new DateTime(2020, 5, 19, 9, 5, 1, 990, DateTimeKind.Local).AddTicks(7419),
+                            BlogPostTitle = "maling er godt"
+                        });
                 });
 
             modelBuilder.Entity("kreaTid.Models.BlogPostComment", b =>
@@ -69,6 +78,17 @@ namespace kreaTid.Migrations
                     b.HasIndex("BlogPostId");
 
                     b.ToTable("BlogPostComment");
+
+                    b.HasData(
+                        new
+                        {
+                            BlogPostCommentId = 1,
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 19, 9, 5, 1, 991, DateTimeKind.Local).AddTicks(5195),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 19, 9, 5, 1, 991, DateTimeKind.Local).AddTicks(3400),
+                            BlogPostCommentText = "what",
+                            BlogPostCommentUser = "who",
+                            BlogPostId = 1
+                        });
                 });
 
             modelBuilder.Entity("kreaTid.Models.BlogPostImg", b =>
@@ -95,6 +115,16 @@ namespace kreaTid.Migrations
                     b.HasIndex("BlogPostId");
 
                     b.ToTable("BlogPostImg");
+
+                    b.HasData(
+                        new
+                        {
+                            BlogPostImgId = 1,
+                            BlogPostId = 1,
+                            ImgAltText = "ddd",
+                            ImgFileUrl = "~/img/header.jpg",
+                            ImgType = "blogbillede"
+                        });
                 });
 
             modelBuilder.Entity("kreaTid.Models.Category", b =>
@@ -110,6 +140,28 @@ namespace kreaTid.Migrations
                     b.HasKey("CategoryId");
 
                     b.ToTable("Category");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryId = 1,
+                            CategoryName = "Papir"
+                        },
+                        new
+                        {
+                            CategoryId = 2,
+                            CategoryName = "xx"
+                        },
+                        new
+                        {
+                            CategoryId = 3,
+                            CategoryName = "xx"
+                        },
+                        new
+                        {
+                            CategoryId = 4,
+                            CategoryName = "xx"
+                        });
                 });
 
             modelBuilder.Entity("kreaTid.Models.Product", b =>
@@ -136,6 +188,16 @@ namespace kreaTid.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Product");
+
+                    b.HasData(
+                        new
+                        {
+                            ProductId = 1,
+                            CategoryId = 1,
+                            ProductDescription = "bla bla bla",
+                            ProductName = "Maling",
+                            ProductPrice = 23.00m
+                        });
                 });
 
             modelBuilder.Entity("kreaTid.Models.ProductComment", b =>
@@ -165,6 +227,17 @@ namespace kreaTid.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("ProductComment");
+
+                    b.HasData(
+                        new
+                        {
+                            ProductCommentId = 1,
+                            ProductCommentDate = new DateTime(2020, 5, 19, 9, 5, 1, 978, DateTimeKind.Local).AddTicks(8806),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 19, 9, 5, 1, 989, DateTimeKind.Local).AddTicks(2971),
+                            ProductCommentText = "xxx",
+                            ProductCommentUser = "xx",
+                            ProductId = 1
+                        });
                 });
 
             modelBuilder.Entity("kreaTid.Models.ProductImg", b =>
@@ -177,7 +250,7 @@ namespace kreaTid.Migrations
                     b.Property<int>("BlogPostId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("ProductId")
+                    b.Property<int>("ProductId")
                         .HasColumnType("int");
 
                     b.Property<string>("ProductImgAltText")
@@ -194,6 +267,17 @@ namespace kreaTid.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("ProductImg");
+
+                    b.HasData(
+                        new
+                        {
+                            ProductImgId = 1,
+                            BlogPostId = 0,
+                            ProductId = 1,
+                            ProductImgAltText = "test",
+                            ProductImgFileUrl = "~/img/Logo.png",
+                            ProductImgType = "productImg"
+                        });
                 });
 
             modelBuilder.Entity("kreaTid.Models.BlogPostComment", b =>
@@ -236,7 +320,9 @@ namespace kreaTid.Migrations
                 {
                     b.HasOne("kreaTid.Models.Product", null)
                         .WithMany("ProductImgs")
-                        .HasForeignKey("ProductId");
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
