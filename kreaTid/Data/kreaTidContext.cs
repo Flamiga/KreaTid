@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using kreaTid.Models;
 using Microsoft.EntityFrameworkCore;
-using kreaTid.Models;
+using System;
 
 namespace kreaTid.Data
 {
@@ -51,17 +48,103 @@ namespace kreaTid.Data
 
             //mangler vores lister fra product img og productcomments
             modelBuilder.Entity<Product>().HasData(
-                new Product { ProductId = 1, ProductName = "Maling", ProductPrice = 23.00m, ProductDescription = "bla bla bla", CategoryId = 1 },
-                new Product { ProductId = 2, ProductName = "kl", ProductPrice = 23.00m, ProductDescription = "bla bla bla", CategoryId = 2 },
-                new Product { ProductId = 3, ProductName = "Maling", ProductPrice = 23.00m, ProductDescription = "bla bla bla", CategoryId = 3 },
-                new Product { ProductId = 4, ProductName = "Maling", ProductPrice = 23.00m, ProductDescription = "bla bla bla", CategoryId = 1 });
+                //Products for blog post 1 (viskelædere)
+                new Product { ProductId = 1, ProductName = "GRENE viskelæder", ProductPrice = 0.98m, ProductDescription = "Sommetider skal der små justeringer til for at opnå det ønskede resultat, mener søstrene. GRENE har derfor kreeret dette nydelige viskelæder, der let udvisker blyantspor. Et viskelæder er vidunderligt til at korrigere detaljer, som De ikke helt blev tilfreds med. Et særdeles anvendeligt redskab til kontoret.", CategoryId = 4 },
+                new Product { ProductId = 2, ProductName = "Steadtler Mars Plastic viskelæder", ProductPrice = 25.00m, ProductDescription = "Viskelæder af højeste kvalitet til alle typer af blyanter, grafitlinjer og farveblyanter.", CategoryId = 4 },
+                new Product { ProductId = 3, ProductName = "Farber-Castell Dust-Free viskelæder", ProductPrice = 19.95m, ProductDescription = "Viskelæder dust-free, fra Faber-Castell.Hvid - 63 x 22 x 12 mm.Ekstra blødt viskegummi. Til blyanter med bløde stifter.", CategoryId = 4 },
+                //Products for blog post 2 (markers)
+                new Product { ProductId = 4, ProductName = "Design Twin Markers 12 stk. Standart sæt", ProductPrice = 169.95m, ProductDescription = "Design Twin markers er en smart og enkelt 2-i-1 markers til dine tegninger og illustrationer. Sættet med 12 standardfarver giver dig en god base og grundlag for dine designs. Brug sættet sammen med mange af vores andre Design Twin markers og giv liv til dine tegninger og illustrationer. Med et standardsæt af 12 farver får du farver der dækker dit basisbehov. Med en tyk og en tynd ende kan du variere dine streger og derved er der endnu flere muligheder i de 12 markers. Brug begge ender og skab flotte motiver og designs.Den tynde ende måler 1,5 mm og den tykke ende måler 7,0 mm.", CategoryId = 3 },
+                new Product { ProductId = 5, ProductName = "Touch Twin Marker", ProductPrice = 39.00m, ProductDescription = "Touch Twin Brush Marker er en alkoholbaseret tusch, der er tilgængelig i 204 farver. To spidser, en med penselspids(brush tip) i den ene ende og en bred spids(Chisel tip) i den anden. Spidserne kan udskiftes. Den halvtransparente tusch lægges i lag og gør det nemt at lave bløde toner og overgange. Produktet er velegnet til hobbyfolket såvel som illustratorer og designere. Vi anbefaler at supplere med en farveløs blender og markerpapir.", CategoryId = 3 },
+                new Product { ProductId = 6, ProductName = "Copic Ciao", ProductPrice = 49.00m, ProductDescription = "Copic Ciao er den perfekte ud af Copic's tusser til nybegyndere, elever, studerende og amatørkunstnere, og prisen er yderst rimelig. Permanent, giftfrit, syrefrit og alkoholbaseret blæk, som er hurtigtørrende. Pennen har to standardspidser, en mediumbred i den ene ende, og pensel i den anden. Hætten er farvet, så du hurtigt kan vælge farve.", CategoryId = 3 },
+                //Products for blog post 3 (soft pastel)
+                new Product { ProductId = 7, ProductName = "Rembrandt Soft Pastel Half Stick Set", ProductPrice = 120.00m, ProductDescription = "Et sæt på 10 halve stick bløde pasteller fra Royal Talens Rembrandt professionelle sortiment. Pasteller er en blød kridtype baseret på kaolin (porcelæn) og pigment, hvormed tegninger kan laves i en stil, der ligner maleri. Kunstnere, der arbejder med pasteller, har en tendens til at se deres arbejde som et maleri snarere end en tegning. Disse pasteller tilbyder fremragende farveudgivelse og intense, rene farver. De har en god grad af lysfasthed og meget høj farvekraft på grund af den høje koncentration af pigment. Rembrandt bløde pasteller skylder deres kvalitet til det tætte samarbejde med professionelle kunstnere kombineret med traditionel ekspertise og mere end et århundredes erfaring med pastelfabrikation. Hver farve er lavet efter en unik formel, og de nødvendige råvarer gennemgår meget strenge kontroller for hver nye batch.", CategoryId = 3 },
+                new Product { ProductId = 8, ProductName = "Bruynzeel Design Pastel Pencil", ProductPrice = 20.00m, ProductDescription = "Bruynzeel Design Pastel Pencils er designet nøjagtigt til kunstneres, designere og illustratørers behov. Disse pastelblyanter i høj kvalitet er udformet med de fineste lysfaste pigmenter og Kaolin-ler. De 3,7 mm brede målere, perfekt centrerede og dobbeltlimede farvede kerner kombineres med de fineste lette cedertræk for at gøre dem meget modstandsdygtige over for brud. De holder også et punkt bedre end de fleste pastelflyanter og er en glæde at skærpe", CategoryId = 3 },
+                new Product { ProductId = 9, ProductName = "Canson Mi-Teintes Touch Paper", ProductPrice = 199.95m, ProductDescription = "Canson Mi-Teintes Touch Paper er det ultimative papir til pastelkridt med en ru overflade der minder om fint sandpapir. Overfladen får kul, pastel, kridt og akryl til at fremtræde smukt på papiret, og bevarer pastelpigmenterne hvilket gør det muligt at male i flere lag.", CategoryId = 1 },
+                //Products for blog post 4 (gouache)
+                new Product { ProductId = 10, ProductName = "Daler Rowney Aquafine Gouache", ProductPrice = 36.00m, ProductDescription = "Denne farvepakke er en ideel introduktion til Aquafine Gouache akvarelfarver. Aquafine-akvareller er lavet af et omhyggeligt udvalg af moderne højkvalitetspigmenter, der er formalet til perfektion for at give optimal ydelse og kontrol. Disse rige farver har smuk pigmentering og egenskaber, der producerer smukke, sarte vaske hver gang. Disse malinger kombinerer en moderne måde at bruge akvarel på med de traditionelle essentials, der følger med at bruge dette medium, hvilket gør dette innovative sortiment ideelt til blandede medier såvel som traditionelle teknikker.", CategoryId = 2 },
+                new Product { ProductId = 11, ProductName = "Lyra Robinson 3B Pencil", ProductPrice = 24.95m, ProductDescription = "Dette er en fremragende træ- og blyblyant fra Lyra. Disse blyanter bliver hurtigt et meget populært tegningsprodukt på grund af deres høje kvalitet og deres pålidelige brug. Det er et meget smart tegneinstrument med en højglans blå farve, en farvet dyppet ende og guldprægede sortering. Det giver bestemt en god tilføjelse til din blyantkollektion og den bløde kerne giver en dejlig mørk linje.", CategoryId = 3 },
+                new Product { ProductId = 12, ProductName = "Royal Talens Van Gogh 191 Series Brush", ProductPrice = 45.00m, ProductDescription = "Van Gogh børster er lavet med yderste omhu og håndværk. Denne 191-serie (nr. 6) er en rund børste lavet med gyldent syntetisk hår af høj kvalitet. Den fine spids gør den god til kontrolleret detalje, men med lidt tryk kan der frembringes dristige tykke slag. De fleksible og stærke børster gør den modstandsdygtig over for slid, så den er en fantastisk børste til daglig brug. Det er også designet med en stor hårtæthed, så det kan rumme en stor mængde maling, hvilket gør det til det perfekte instrument til gouache-akvarelmalning.", CategoryId = 4 },
+                new Product { ProductId = 13, ProductName = "KUM Natural Eraser", ProductPrice = 15.00m, ProductDescription = "Dette enkle viskelæder i høj kvalitet kan fjerne de fleste blyantlinjer uden at forårsage grimme udtværinger, udtværing eller blødning. Det er lavet af et kvalitetsmateriale, der er blødt og blidt, hvilket sikrer, at der ikke er unødvendig belastning på dit papir. Det er ekstremt alsidigt og kan bruges på en række forskellige overflader, såsom papir, pap og træ. KUM viskelædet er også lavet af naturlige materialer, så det er fri for PVC, latex og ftalater.", CategoryId = 4 },
+                new Product { ProductId = 14, ProductName = "Bockingford CP Watercolour Paper 220gsm", ProductPrice = 23.00m, ProductDescription = "Et meget populært vandfarvepapir, der er meget absorberende, med et smukt struktureret udseende. Det fremstilles traditionelt på St Cuthberts Mølle ved hjælp af en høj alfa-cellulose. Det har en attraktiv overflade, der er skabt ved hjælp af naturlige uldfilt, hvilket giver papiret en smukt tekstureret finish, der er meget stabil og med fremragende farveopløftningsevner.", CategoryId = 1 },
+                //Products for blog post 5 (mal med de så pour painting)
+                new Product { ProductId = 15, ProductName = "ArtistLine Canvas 30x30cm", ProductPrice = 35.00m, ProductDescription = "Grundmalet, ubleget bomuldslærred i superkvalitet. Opspændt på blindramme med sømfri kant, hæftet på bagsiden. str. 30x30 cm, dybde 1,6 cm,360 g", CategoryId = 1 },
+                new Product { ProductId = 16, ProductName = "Pouring-Fluid 150ml", ProductPrice = 47.00m, ProductDescription = "Akryl- og vandbaseret klar medie, som blandes med akryl- eller hobbymaling for at gøre malingen mere flydende og dermed velegnet til diverse fluid painting/acrylic pouring teknikker. Kan også anvendes ufortyndet som en transparent.Tørrer blankt og vandfast op og gulner ikke.", CategoryId = 2 },
+                new Product { ProductId = 17, ProductName = "Plus Color hobbymaling, black, 60ml", ProductPrice = 24.95m, ProductDescription = "Vandbaseret hobbymaling i rigtig god kvalitet med høj farvepigmentering, der giver en god dækkeevne. Tørrer hurtigt op og efterlader en silkemat overflade. Velegnet til træ, pap, gips osv..", CategoryId = 2 },
+                new Product { ProductId = 18, ProductName = "Ispinde", ProductPrice = 17.00m, ProductDescription = "Ispinde lyst træ midi, L: 11,5 cm, B: 10 mm, birk, 30stk", CategoryId = 4 },
+                //Products for blog post 6 (Påske)
+                new Product { ProductId = 19, ProductName = "Karton A4 10stk.", ProductPrice = 19.95m, ProductDescription = "Flere farver, A4 210x297 mm, 220 g, 10stk.", CategoryId = 1 },
+                new Product { ProductId = 20, ProductName = "White limstift, 21 g, 1stk.", ProductPrice = 23.00m, ProductDescription = "Hvid limstift i rigtig god kvalitet til karton, papir m.m. 21 g. Tørrer klart op.", CategoryId = 4 },
+                new Product { ProductId = 21, ProductName = "Silhuetsaks", ProductPrice = 32.00m, ProductDescription = "L: 11 cm, højre, 1stk.", CategoryId = 1 },
+                //Products for blog post 7 (Posca)
+                new Product { ProductId = 22, ProductName = "Posca Tusch 2,5mm", ProductPrice = 23.00m, ProductDescription = "Stregtykkelse: 2,5 mm, PC-5M , medium, 1stk.", CategoryId = 3 },
+                //Products for blog post 8 (Bullet journey)
+                new Product { ProductId = 23, ProductName = "LEUCHTTURM1917 Bullet Journal (dotted)", ProductPrice = 180.00m, ProductDescription = "Bullet Journal fra tyske LEUCHTTURM1917 henvender sig til dig, som synes, at der ikke er noget mere herligt end at organisere livet på en kreativ og pæn måde. Punktmønstret papir. Størrelse: A5. Indeholder en guide til Bullet Journaling", CategoryId = 1 },
+                new Product { ProductId = 24, ProductName = "Handlettering - 1000 dekorative ideer", ProductPrice = 149.95m, ProductDescription = " Hand Lettering 1.000 dekorative idéer er for alle - fra nybegyndere til øvede. Bogen er fuld af overskuelige  vejledninger, så man nemt lærer de grundlæggende teknikker. Du får masser DIY's, øvelser og tips, så du selv som nybegynder kan være med. Bogen indeholder masser af inspirerende eksempler, som bl.a. kan bruges i bullet journals. Denne bog er både et opslagsværk, en inspirationskilde med masser af idéer og en guldgrube af dekorative elementer. Str. 22x23 cm, tykkelse 2 cm, dansk tekst 143 sider.", CategoryId = 4 },
+                new Product { ProductId = 25, ProductName = "Hand Lettering Øvehæftet til Grundbogen", ProductPrice = 79.95m, ProductDescription = "Hand Lettering er håndtegnede og smukt dekorerede ord og statements. Skab selv unikke og personlige fødselsdagskort og indbydelser, lav fine mærkater og skilte eller sæt dit eget præg på alt fra t-shirts, tasker, porcelæn og glas til billeder og tavler. Dette øvehæfte giver dig rig mulighed for at lære, hvordan flotte bogstaver og illustrationer som kranse, blomster, bånd og krummelurer bygges op og guider dig igennem trin for trin vejledninger. Du får masser af DIY´s, idéer, tips og tricks, der motiverer dig til at tage blyanten i hånden og komme i gang. Efter lidt øvelse kan du kreere dekorative kunstværker  og glæde dig selv, familie og venner med din personlige streg.Alt, du skal bruge for at komme i gang, er blyant, viskelæder, lineal og fineliner, så er du klædt på til mange timers fordybelse.Prøv også at farvelægge eksemplerne og illustrationerne i bogen og nyd at lege med forskellige farvekombinationer.", CategoryId = 4 },
+                new Product { ProductId = 26, ProductName = "Fine Line skrive/tegnetusch", ProductPrice = 125.00m, ProductDescription = "Sortiment af tusch, der er alkoholbaserede og lysægte - hver med rund, fin tegnespids. Stregtykkelse: 0,03mm, 0,05mm, 0,1mm, 0,2mm, 0,3mm, 0,5mm, 0,8mm, og 1,0 mm, sort, 8stk.", CategoryId = 3 });
+                
 
             //ændre DateTime til New datetime se side 15 fra exercises L09
             modelBuilder.Entity<ProductComment>().HasData(
                 new ProductComment { ProductCommentId = 1, ProductCommentDate = DateTime.Now, ProductCommentUser = "", ProductCommentText = "", ProductCommentLastUpdated = DateTime.Now, ProductId = 1, });
 
             modelBuilder.Entity<ProductImg>().HasData(
-            new ProductImg { ProductImgId = 1, ProductImgAltText = "test", ProductImgType = "productImg", ProductImgFileUrl = "~/img/Logo.png", });
+            //Product images for products connected to blog post 1
+            new ProductImg { ProductImgId = 1, ProductImgAltText = "GRENEviskelæder", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/GRENEviskelæder.jifi", ProductId = 1 },
+            new ProductImg { ProductImgId = 2, ProductImgAltText = "test", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/steadtler-mars-plastic.jifi", ProductId = 2},
+            new ProductImg { ProductImgId = 3, ProductImgAltText = "faber-castell-dust-free-eraser", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/faber-castell-dust-free-eraser.jpg", ProductId = 3},
+            //Product images for products connected to blog post 2
+            new ProductImg { ProductImgId = 4, ProductImgAltText = "Design Twin Markers", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/design-twin-marker-pastel-SingleView.jpg", ProductId = 4 },
+            new ProductImg { ProductImgId = 5, ProductImgAltText = "Design Twin Markers", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/DesignTwinMarkerSideView.PNG", ProductId = 4},
+            new ProductImg { ProductImgId = 5, ProductImgAltText = "Design Twin Markers", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/DesignTwinMarker.PNG", ProductId = 4},
+
+            new ProductImg { ProductImgId = 6, ProductImgAltText = "Copic Ciao", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/copic_ciao_styckvis.jpg", ProductId = 6},
+            new ProductImg { ProductImgId = 7, ProductImgAltText = "Copic Ciao udvalgte farver", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/copic_ciao_styckvis.png", ProductId = 6},
+
+            new ProductImg { ProductImgId = 8, ProductImgAltText = "Touch Twin Marker, enkel", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/touchtwinmarker_singleview.png", ProductId = 5 },
+            new ProductImg { ProductImgId = 9, ProductImgAltText = "Touch Twin Marker, 12 stk sæt", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/TouchTwinMarker12stk.jpg", ProductId = 5 },
+
+            //Product images for products connected to blog post 3
+            new ProductImg { ProductImgId = 10, ProductImgAltText = "test", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Rembrandt-Soft-Pastel-Half-Stick-10-Set_250x.jpg", ProductId = 7 },
+
+            new ProductImg { ProductImgId = 11, ProductImgAltText = "test", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Bruynzeel-design-pastel-pencil.jpg", ProductId = 8},
+
+            new ProductImg { ProductImgId = 12, ProductImgAltText = "Canson Mi Teintes Touch", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/canson_mi_teintes_touch", ProductId = 9},
+            //Product images for products connected to blog post 4
+            new ProductImg { ProductImgId = 13, ProductImgAltText = "Daler Rowney Gouache Opaque Watercolour Paint", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Daler-Rowney-Gouache-Opaque-Watercolour-Paints.jpg", ProductId = 10 },
+
+            new ProductImg { ProductImgId = 14, ProductImgAltText = "Lyra-Robinson-3B-Pencil", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Lyra-Robinson-3B-Pencil_250x.jpg", ProductId = 11},
+
+            new ProductImg { ProductImgId = 15, ProductImgAltText = "RoyalTalens-VanGogh-191-Series-No6-Brush", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/RoyalTalens-VanGogh-191-Series-No6-Brush_250x.jpg", ProductId = 12 },
+
+            new ProductImg { ProductImgId = 16, ProductImgAltText = "KUM natural viskelæder", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/KUM-natural-eraser_250x.jpg", ProductId = 13 },
+
+            new ProductImg { ProductImgId = 17, ProductImgAltText = "Bockingford Block", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/BockingfordBlock.jpg", ProductId = 14 },
+
+            //Product images for products connected to blog post 5
+            new ProductImg { ProductImgId = 18, ProductImgAltText = "30x30 cm lærred", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Lærred.jpg", ProductId = 15 },
+
+            new ProductImg { ProductImgId = 19, ProductImgAltText = "Pouring Fluid", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Pouring-Fluid.jpg", ProductId = 16 },
+
+            new ProductImg { ProductImgId = 20, ProductImgAltText = "hobby maling sort", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/hobby-maling-sort.jpg", ProductId = 17},
+
+            new ProductImg { ProductImgId = 21, ProductImgAltText = "Ispinde", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/ispinde.jpg", ProductId = 18 },
+
+            //Product images for products connected to blog post 6
+            new ProductImg { ProductImgId = 22, ProductImgAltText = "Karton", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/karton-lysblå.jpg", ProductId = 19},
+            new ProductImg { ProductImgId = 23, ProductImgAltText = "Lim", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/lim.jpg", ProductId = 20 },
+            new ProductImg { ProductImgId = 24, ProductImgAltText = "Saks", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/saks.jpg", ProductId = 21 },
+
+            //Product images for products connected to blog post 7
+            new ProductImg { ProductImgId = 25, ProductImgAltText = "posca", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/posca2.5mm.jpg", ProductId = 22},
+             new ProductImg { ProductImgId = 26, ProductImgAltText = "Posca sæt 10stk", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/POSCAset.jpg",ProductId = 22},
+            new ProductImg { ProductImgId = 27, ProductImgAltText = "Sten tegnet med POSCA", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/monstersten_1.jpg", ProductId = 22},
+
+            //Product images for products connected to blog post 8
+            new ProductImg { ProductImgId = 28, ProductImgAltText = "Leuchturm1917 Dotted", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/notebogA5.jpg", ProductId = 23},
+            new ProductImg { ProductImgId = 29, ProductImgAltText = "Hand Lettering 1000 exercises", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Hand Lettering1000exercises.jpg", ProductId = 24},
+            new ProductImg { ProductImgId = 30, ProductImgAltText = "handlettering exercises paper", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/handletteringexercisespaper.jpg", ProductId = 25},
+            new ProductImg { ProductImgId = 31, ProductImgAltText = "fine liners", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/fineliner.jpg", ProductId = 26});
 
             //mangler vores lister fra vores billeder og comments. HUSK INDSÆT ANDRE DATOER!!!
             modelBuilder.Entity<BlogPost>().HasData(
