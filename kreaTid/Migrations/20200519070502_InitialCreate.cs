@@ -135,7 +135,7 @@ namespace kreaTid.Migrations
                     ProductImgAltText = table.Column<string>(nullable: true),
                     ProductImgType = table.Column<string>(nullable: true),
                     BlogPostId = table.Column<int>(nullable: false),
-                    ProductId = table.Column<int>(nullable: true)
+                    ProductId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -145,8 +145,49 @@ namespace kreaTid.Migrations
                         column: x => x.ProductId,
                         principalTable: "Product",
                         principalColumn: "ProductId",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.InsertData(
+                table: "BlogPost",
+                columns: new[] { "BlogPostId", "BlogPostContent", "BlogPostDate", "BlogPostTitle" },
+                values: new object[] { 1, "what th", new DateTime(2020, 5, 19, 9, 5, 1, 990, DateTimeKind.Local).AddTicks(7419), "maling er godt" });
+
+            migrationBuilder.InsertData(
+                table: "Category",
+                columns: new[] { "CategoryId", "CategoryName" },
+                values: new object[,]
+                {
+                    { 1, "Papir" },
+                    { 2, "xx" },
+                    { 3, "xx" },
+                    { 4, "xx" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "BlogPostComment",
+                columns: new[] { "BlogPostCommentId", "BlogPostCommentLastUpdated", "BlogPostCommentPublishDate", "BlogPostCommentText", "BlogPostCommentUser", "BlogPostId" },
+                values: new object[] { 1, new DateTime(2020, 5, 19, 9, 5, 1, 991, DateTimeKind.Local).AddTicks(5195), new DateTime(2020, 5, 19, 9, 5, 1, 991, DateTimeKind.Local).AddTicks(3400), "what", "who", 1 });
+
+            migrationBuilder.InsertData(
+                table: "BlogPostImg",
+                columns: new[] { "BlogPostImgId", "BlogPostId", "ImgAltText", "ImgFileUrl", "ImgType" },
+                values: new object[] { 1, 1, "ddd", "~/img/header.jpg", "blogbillede" });
+
+            migrationBuilder.InsertData(
+                table: "Product",
+                columns: new[] { "ProductId", "CategoryId", "ProductDescription", "ProductName", "ProductPrice" },
+                values: new object[] { 1, 1, "bla bla bla", "Maling", 23.00m });
+
+            migrationBuilder.InsertData(
+                table: "ProductComment",
+                columns: new[] { "ProductCommentId", "ProductCommentDate", "ProductCommentLastUpdated", "ProductCommentText", "ProductCommentUser", "ProductId" },
+                values: new object[] { 1, new DateTime(2020, 5, 19, 9, 5, 1, 978, DateTimeKind.Local).AddTicks(8806), new DateTime(2020, 5, 19, 9, 5, 1, 989, DateTimeKind.Local).AddTicks(2971), "xxx", "xx", 1 });
+
+            migrationBuilder.InsertData(
+                table: "ProductImg",
+                columns: new[] { "ProductImgId", "BlogPostId", "ProductId", "ProductImgAltText", "ProductImgFileUrl", "ProductImgType" },
+                values: new object[] { 1, 0, 1, "test", "~/img/Logo.png", "productImg" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_BlogPostComment_BlogPostId",
