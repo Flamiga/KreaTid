@@ -58,7 +58,7 @@ namespace kreaTid.Data
 
             //ændre DateTime til New datetime se side 15 fra exercises L09
             modelBuilder.Entity<ProductComment>().HasData(
-                new ProductComment { ProductCommentId = 1, ProductCommentDate = DateTime.Now, ProductCommentUser = "xx", ProductCommentText = "xxx", ProductCommentLastUpdated = DateTime.Now, ProductId = 1 });
+                new ProductComment { ProductCommentId = 1, ProductCommentDate = DateTime.Now, ProductCommentUser = "", ProductCommentText = "", ProductCommentLastUpdated = DateTime.Now, ProductId = 1, });
 
             modelBuilder.Entity<ProductImg>().HasData(
             new ProductImg { ProductImgId = 1, ProductImgAltText = "test", ProductImgType = "productImg", ProductImgFileUrl = "~/img/Logo.png", });
