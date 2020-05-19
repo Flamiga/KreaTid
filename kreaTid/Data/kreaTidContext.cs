@@ -43,13 +43,8 @@ namespace kreaTid.Data
 
             modelBuilder.Entity<Category>().HasData(
                 new Category { CategoryId = 1, CategoryName = "Papir" },
-<<<<<<< Updated upstream
-                new Category { CategoryId = 2, CategoryName = "Tegning" },
-                new Category { CategoryId = 3, CategoryName = "Maling" },
-=======
                 new Category { CategoryId = 2, CategoryName = "Maling" },
                 new Category { CategoryId = 3, CategoryName = "Tegning" },
->>>>>>> Stashed changes
                 new Category { CategoryId = 4, CategoryName = "Tilbehør" }
                 );
 
