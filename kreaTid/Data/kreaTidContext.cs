@@ -43,22 +43,25 @@ namespace kreaTid.Data
 
             modelBuilder.Entity<Category>().HasData(
                 new Category { CategoryId = 1, CategoryName = "Papir" },
-                new Category { CategoryId = 2, CategoryName = "xx" },
-                new Category { CategoryId = 3, CategoryName = "xx" },
-                new Category { CategoryId = 4, CategoryName = "xx" }
+                new Category { CategoryId = 2, CategoryName = "Tegning" },
+                new Category { CategoryId = 3, CategoryName = "Maling" },
+                new Category { CategoryId = 4, CategoryName = "Tilbehør" }
                 );
 
 
             //mangler vores lister fra product img og productcomments
             modelBuilder.Entity<Product>().HasData(
-                new Product { ProductId = 1, ProductName = "Maling", ProductPrice = 23.00m, ProductDescription = "bla bla bla", CategoryId = 1 });
+                new Product { ProductId = 1, ProductName = "Maling", ProductPrice = 23.00m, ProductDescription = "bla bla bla", CategoryId = 1 },
+                new Product { ProductId = 2, ProductName = "kl", ProductPrice = 23.00m, ProductDescription = "bla bla bla", CategoryId = 2 },
+                new Product { ProductId = 3, ProductName = "Maling", ProductPrice = 23.00m, ProductDescription = "bla bla bla", CategoryId = 3 },
+                new Product { ProductId = 4, ProductName = "Maling", ProductPrice = 23.00m, ProductDescription = "bla bla bla", CategoryId = 1 });
 
             //ændre DateTime til New datetime se side 15 fra exercises L09
             modelBuilder.Entity<ProductComment>().HasData(
                 new ProductComment { ProductCommentId = 1, ProductCommentDate = DateTime.Now, ProductCommentUser = "xx", ProductCommentText = "xxx", ProductCommentLastUpdated = DateTime.Now, ProductId = 1 });
 
             modelBuilder.Entity<ProductImg>().HasData(
-            new ProductImg { ProductImgId = 1, ProductImgAltText = "test", ProductImgType = "productImg", ProductImgFileUrl = "~/img/Logo.png", ProductId = 1 });
+            new ProductImg { ProductImgId = 1, ProductImgAltText = "test", ProductImgType = "productImg", ProductImgFileUrl = "~/img/Logo.png", });
 
             //mangler vores lister fra vores billeder og comments.
             modelBuilder.Entity<BlogPost>().HasData(
