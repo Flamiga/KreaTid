@@ -171,6 +171,7 @@ C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\o
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.Views.pdb
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.csproj.CopyComplete
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.dll
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.pdb
 <<<<<<< HEAD
@@ -307,4 +308,11 @@ C:\Users\John\EFIF\OneDrive - EFIF\Webdevelopment\KreaTid\kreaTid\obj\Debug\netc
 C:\Users\John\EFIF\OneDrive - EFIF\Webdevelopment\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.MvcApplicationPartsAssemblyInfo.cache
 >>>>>>> master
 =======
+>>>>>>> master
+=======
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Create.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Delete.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
 >>>>>>> master
