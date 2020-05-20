@@ -170,3 +170,8 @@ C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\o
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.RazorTargetAssemblyInfo.cs
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.Views.pdb
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.csproj.CopyComplete
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Create.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Delete.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs

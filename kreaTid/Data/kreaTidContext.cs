@@ -96,57 +96,57 @@ namespace kreaTid.Data
             //Product images for products connected to blog post 2
             new ProductImg { ProductImgId = 4, ProductImgAltText = "Design Twin Markers", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/design-twin-marker-pastel-SingleView.jpg", ProductId = 4 },
             new ProductImg { ProductImgId = 5, ProductImgAltText = "Design Twin Markers", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/DesignTwinMarkerSideView.PNG", ProductId = 4},
-            new ProductImg { ProductImgId = 5, ProductImgAltText = "Design Twin Markers", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/DesignTwinMarker.PNG", ProductId = 4},
+            new ProductImg { ProductImgId = 6, ProductImgAltText = "Design Twin Markers", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/DesignTwinMarker.PNG", ProductId = 4},
 
-            new ProductImg { ProductImgId = 6, ProductImgAltText = "Copic Ciao", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/copic_ciao_styckvis.jpg", ProductId = 6},
-            new ProductImg { ProductImgId = 7, ProductImgAltText = "Copic Ciao udvalgte farver", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/copic_ciao_styckvis.png", ProductId = 6},
+            new ProductImg { ProductImgId = 7, ProductImgAltText = "Copic Ciao", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/copic_ciao_styckvis.jpg", ProductId = 6},
+            new ProductImg { ProductImgId = 8, ProductImgAltText = "Copic Ciao udvalgte farver", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/copic_ciao_styckvis.png", ProductId = 6},
 
-            new ProductImg { ProductImgId = 8, ProductImgAltText = "Touch Twin Marker, enkel", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/touchtwinmarker_singleview.png", ProductId = 5 },
-            new ProductImg { ProductImgId = 9, ProductImgAltText = "Touch Twin Marker, 12 stk sæt", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/TouchTwinMarker12stk.jpg", ProductId = 5 },
+            new ProductImg { ProductImgId = 9, ProductImgAltText = "Touch Twin Marker, enkel", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/touchtwinmarker_singleview.png", ProductId = 5 },
+            new ProductImg { ProductImgId = 10, ProductImgAltText = "Touch Twin Marker, 12 stk sæt", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/TouchTwinMarker12stk.jpg", ProductId = 5 },
 
             //Product images for products connected to blog post 3
-            new ProductImg { ProductImgId = 10, ProductImgAltText = "test", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Rembrandt-Soft-Pastel-Half-Stick-10-Set_250x.jpg", ProductId = 7 },
+            new ProductImg { ProductImgId = 11, ProductImgAltText = "test", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Rembrandt-Soft-Pastel-Half-Stick-10-Set_250x.jpg", ProductId = 7 },
 
-            new ProductImg { ProductImgId = 11, ProductImgAltText = "test", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Bruynzeel-design-pastel-pencil.jpg", ProductId = 8},
+            new ProductImg { ProductImgId = 12, ProductImgAltText = "test", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Bruynzeel-design-pastel-pencil.jpg", ProductId = 8},
 
-            new ProductImg { ProductImgId = 12, ProductImgAltText = "Canson Mi Teintes Touch", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/canson_mi_teintes_touch", ProductId = 9},
+            new ProductImg { ProductImgId = 13, ProductImgAltText = "Canson Mi Teintes Touch", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/canson_mi_teintes_touch", ProductId = 9},
             //Product images for products connected to blog post 4
-            new ProductImg { ProductImgId = 13, ProductImgAltText = "Daler Rowney Gouache Opaque Watercolour Paint", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Daler-Rowney-Gouache-Opaque-Watercolour-Paints.jpg", ProductId = 10 },
+            new ProductImg { ProductImgId = 14, ProductImgAltText = "Daler Rowney Gouache Opaque Watercolour Paint", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Daler-Rowney-Gouache-Opaque-Watercolour-Paints.jpg", ProductId = 10 },
 
-            new ProductImg { ProductImgId = 14, ProductImgAltText = "Lyra-Robinson-3B-Pencil", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Lyra-Robinson-3B-Pencil_250x.jpg", ProductId = 11},
+            new ProductImg { ProductImgId = 15, ProductImgAltText = "Lyra-Robinson-3B-Pencil", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Lyra-Robinson-3B-Pencil_250x.jpg", ProductId = 11},
 
-            new ProductImg { ProductImgId = 15, ProductImgAltText = "RoyalTalens-VanGogh-191-Series-No6-Brush", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/RoyalTalens-VanGogh-191-Series-No6-Brush_250x.jpg", ProductId = 12 },
+            new ProductImg { ProductImgId = 16, ProductImgAltText = "RoyalTalens-VanGogh-191-Series-No6-Brush", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/RoyalTalens-VanGogh-191-Series-No6-Brush_250x.jpg", ProductId = 12 },
 
-            new ProductImg { ProductImgId = 16, ProductImgAltText = "KUM natural viskelæder", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/KUM-natural-eraser_250x.jpg", ProductId = 13 },
+            new ProductImg { ProductImgId = 17, ProductImgAltText = "KUM natural viskelæder", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/KUM-natural-eraser_250x.jpg", ProductId = 13 },
 
-            new ProductImg { ProductImgId = 17, ProductImgAltText = "Bockingford Block", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/BockingfordBlock.jpg", ProductId = 14 },
+            new ProductImg { ProductImgId = 18, ProductImgAltText = "Bockingford Block", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/BockingfordBlock.jpg", ProductId = 14 },
 
             //Product images for products connected to blog post 5
-            new ProductImg { ProductImgId = 18, ProductImgAltText = "30x30 cm lærred", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Lærred.jpg", ProductId = 15 },
+            new ProductImg { ProductImgId = 19, ProductImgAltText = "30x30 cm lærred", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Lærred.jpg", ProductId = 15 },
 
-            new ProductImg { ProductImgId = 19, ProductImgAltText = "Pouring Fluid", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Pouring-Fluid.jpg", ProductId = 16 },
+            new ProductImg { ProductImgId = 20, ProductImgAltText = "Pouring Fluid", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Pouring-Fluid.jpg", ProductId = 16 },
 
-            new ProductImg { ProductImgId = 20, ProductImgAltText = "hobby maling sort", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/hobby-maling-sort.jpg", ProductId = 17},
+            new ProductImg { ProductImgId = 21, ProductImgAltText = "hobby maling sort", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/hobby-maling-sort.jpg", ProductId = 17},
 
-            new ProductImg { ProductImgId = 21, ProductImgAltText = "Ispinde", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/ispinde.jpg", ProductId = 18 },
+            new ProductImg { ProductImgId = 22, ProductImgAltText = "Ispinde", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/ispinde.jpg", ProductId = 18 },
 
             //Product images for products connected to blog post 6
-            new ProductImg { ProductImgId = 22, ProductImgAltText = "Karton", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/karton-lysblå.jpg", ProductId = 19},
-            new ProductImg { ProductImgId = 23, ProductImgAltText = "Lim", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/lim.jpg", ProductId = 20 },
-            new ProductImg { ProductImgId = 24, ProductImgAltText = "Saks", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/saks.jpg", ProductId = 21 },
+            new ProductImg { ProductImgId = 23, ProductImgAltText = "Karton", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/karton-lysblå.jpg", ProductId = 19},
+            new ProductImg { ProductImgId = 24, ProductImgAltText = "Lim", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/lim.jpg", ProductId = 20 },
+            new ProductImg { ProductImgId = 25, ProductImgAltText = "Saks", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/saks.jpg", ProductId = 21 },
 
             //Product images for products connected to blog post 7
-            new ProductImg { ProductImgId = 25, ProductImgAltText = "posca", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/posca2.5mm.jpg", ProductId = 22},
-             new ProductImg { ProductImgId = 26, ProductImgAltText = "Posca sæt 10stk", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/POSCAset.jpg",ProductId = 22},
-            new ProductImg { ProductImgId = 27, ProductImgAltText = "Sten tegnet med POSCA", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/monstersten_1.jpg", ProductId = 22},
+            new ProductImg { ProductImgId = 26, ProductImgAltText = "posca", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/posca2.5mm.jpg", ProductId = 22},
+             new ProductImg { ProductImgId = 27, ProductImgAltText = "Posca sæt 10stk", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/POSCAset.jpg",ProductId = 22},
+            new ProductImg { ProductImgId = 28, ProductImgAltText = "Sten tegnet med POSCA", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/monstersten_1.jpg", ProductId = 22},
 
             //Product images for products connected to blog post 8
-            new ProductImg { ProductImgId = 28, ProductImgAltText = "Leuchturm1917 Dotted", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/notebogA5.jpg", ProductId = 23},
-            new ProductImg { ProductImgId = 29, ProductImgAltText = "Hand Lettering 1000 exercises", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Hand Lettering1000exercises.jpg", ProductId = 24},
-            new ProductImg { ProductImgId = 30, ProductImgAltText = "handlettering exercises paper", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/handletteringexercisespaper.jpg", ProductId = 25},
-            new ProductImg { ProductImgId = 31, ProductImgAltText = "fine liners", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/fineliner.jpg", ProductId = 26});
+            new ProductImg { ProductImgId = 29, ProductImgAltText = "Leuchturm1917 Dotted", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/notebogA5.jpg", ProductId = 23},
+            new ProductImg { ProductImgId = 30, ProductImgAltText = "Hand Lettering 1000 exercises", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Hand Lettering1000exercises.jpg", ProductId = 24},
+            new ProductImg { ProductImgId = 31, ProductImgAltText = "handlettering exercises paper", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/handletteringexercisespaper.jpg", ProductId = 25},
+            new ProductImg { ProductImgId = 32, ProductImgAltText = "fine liners", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/fineliner.jpg", ProductId = 26});
 
-            //mangler vores lister fra vores billeder og comments. HUSK INDSÆT ANDRE DATOER!!!
+            //mangler vores lister fra vores billeder og comments. HUSK INDSÆT ANDRE DATOER!!! or not lol
             modelBuilder.Entity<BlogPost>().HasData(
             new BlogPost { BlogPostId = 1, BlogPostTitle = "Bedste viskelæder til dit behov", BlogPostContent = "<p>Viskelæderet, et af tegnerens vigtige redskaber. Men er viskelæder ikke bare et viskelæder? Hvis du tænker det er så nemt må vi desværre skuffe dig. Jo hvis du bare skal viske noget ud hurtigt, kan et almindeligt viskelæder godt bruges. Men når du arbejder på et projekt og du lige skal rette noget ville det så ikke være ærgerligt hvis blyanten blot blev tværet ud eller den lineart (linjerne i tegning ofte tegnet op med en form for blæk pen) du har brugt timer på delvist forsvinder eller bliver ødelagt når du visker skitsen under ud? Vi synes det er ærgerligt at gå på kompromi så vi har kigget på et udvalg af viskelædere og sammenlignet dem for at hjælpe dig med at vælge lige den der passer til dit behov. </p><p> Den første er det klassiske Staedler mars plastic viskelæder. Som det kan ses på billedeter det godt til blyant tager lidt blæk med og ødelægger lidt farveblyanten. </p><p> Det næste er et billigt GRENE viskelæder. Denne klare sig ikke helt lige så godt som Steadler Mars. </p><p> Den sidste er Faber - Castell ‘Dust - free’. Dette er ikke helt støvfri men producerer en del mindre støv end de andre viskelædere.</p><p>Alt i alt Er Faber - Catell godt hvis man er træt af støv, GRENE godt hvis man bare vil have en billigt løsning og Steadler godt hvis man ikke har noget imod at skulle fjerne støvet.Du kan selv prøve dem af hvis du vil se det med dine egne øjne.</p>", BlogPostDate = DateTime.Now },
             new BlogPost { BlogPostId = 2, BlogPostTitle = "Hvilken marker er bedst til dig", BlogPostContent = "<p>Der findes mange forskellige mærker af markers og det kan være svært at vide hvad der er bedst. Så her sammenligner vi 3 mærker af markers og giver vores anbefalinger til dig om hvad de er gode til.</p><p>Den første er Design Twin Markers.En af de billigere muligheder derude.De har et godt udvalg af farver.De har en spids i hver ende.En bullet tip i den ene til mere præcis.En chisel tip i den anden ende til større områder.Kvaliteten er god.</ p >< p >Den næste vi har kigget på er er Touch Twin Markers.Har et godt farveudvalg.Ligesom Design Twin Markers har de to spiser.Den ene værende den brede chisel tip og den anden værende en Brush tip.Brush tip er mere fleksible og giver større variation i de linjer man kan lave med dem.De gør det nemt at lave fine detaljer og farvelægge lidt større områder nemt og hurtigt.De har god blæk der en god enshed.</ p >< p >Sidst kiggede vi på Copic.Et af de mest kendte mærker, men også en af de dyreste.Det er et mærke ofte brugt af professionelle.Copic fås i forskellige slags Original, Sketch og Ciao.Vi har valgt at fokusere på Ciao den billigste version som er god hvis man har lyst at prøve copic uden at skal tømme lommerne helt.De har dog også mindre blæk i sig.Copic Ciao har også chisel og brush tips.God kvalitet blæk med jævn fordeling.</ p >< p > Design Twin Markers er gode som er billigere mulighed hvis ikke Brush tip er noget man er interesseret i.Touch Twin Markers er lidt dyrerer, men en godt bud hvis du gerne vil prøve at arbejde med brush markers uden at skulle investerer helt vildt stort.Sidst Copic Ciao godt til at prøve Copic og begynde i det mere professionelle, men hvis du allerede ved du vil komme til at bruge dem meget  kan den hurtigt blive en fordel at vælge Sketch versionen da disse kan genopfyldes.</ p >< p > Nu kan de vælge bedre efter behov eller teste dem alle og se hvad der passer dig bedst.</p>", BlogPostDate = DateTime.Now },
