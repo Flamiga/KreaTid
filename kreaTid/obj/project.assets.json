@@ -8593,6 +8593,7 @@
   "packageFolders": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\Dorthea Windows 10\\.nuget\\packages\\": {}
 =======
     "C:\\Users\\Bruker\\.nuget\\packages\\": {}
@@ -8600,10 +8601,14 @@
 =======
     "C:\\Users\\John\\.nuget\\packages\\": {}
 >>>>>>> master
+=======
+    "C:\\Users\\Bruker\\.nuget\\packages\\": {}
+>>>>>>> master
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Dorthea Windows 10\\OneDrive\\Desktop\\KreaTid\\KreaTid\\kreaTid\\kreaTid.csproj",
@@ -8619,17 +8624,24 @@
 =======
       "projectUniqueName": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\kreaTid.csproj",
 >>>>>>> master
+=======
+      "projectUniqueName": "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\kreaTid.csproj",
+>>>>>>> master
       "projectName": "kreaTid",
-      "projectPath": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\kreaTid.csproj",
-      "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\obj\\",
+      "projectPath": "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\kreaTid.csproj",
+      "packagesPath": "C:\\Users\\Bruker\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
 <<<<<<< HEAD
         "C:\\Users\\Bruker\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> master
 =======
         "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
+=======
+        "C:\\Users\\Bruker\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> master
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8699,7 +8711,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
