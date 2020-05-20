@@ -8,32 +8,36 @@ for details on configuring this project to bundle and minify static web assets. 
     background-image: url("../img/TopHeader.png");
     height: 100px;
     /* Center and scale the image nicely */
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
     position: center;
 }
 
 
 /* Container holding the image and the text */
 .container {
-<<<<<<< HEAD
-=======
-    background-size:cover;
->>>>>>> master
- position: center;
- text-align: center;
- color: white;
-border-image-width: 100%;
-position:center;
+    background-size: cover;
+    position: center;
+    text-align: center;
+    color: white;
+    border-image-width: 100%;
+    position: center;
+}
+
+/* Cover Image*/
+
+img {
+    width: 50%;
+    margin-left: -10%;
 }
 
 
 /* Centered text */
 .centered {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -46,10 +50,7 @@ a.navbar-brand {
     width: 40%;
 }
 
-img {
-    width: 50%;
-    margin-left: -50%;
-}
+
 
 /* Provide sufficient contrast against white background */
 a {
@@ -71,8 +72,7 @@ a {
 /* FONT HEADERS
 -------------------------------------------------- */
 h1 {
-
-    font-size:60px;
+    font-size: 60px;
     font: avenir;
     font-weight: bold;
     color: black;
@@ -105,12 +105,21 @@ h4 {
     top: +10px;
 }
 
-
+/* BANNERS AND DIVIDERS
+-------------------------------------------------- */
 
 #headerbanner {
     background-color: #142B56;
     position: center;
-    text-align:center;
+    text-align: center;
+    width: 100%;
+}
+
+#divider {
+    background-color: lightgrey;
+    position: center;
+    width: 100%;
+    padding: 0.5px;
 }
 
 /* GRID LAYOUT 
@@ -118,38 +127,21 @@ h4 {
 
 .grid-container {
     display: grid;
-    grid-template: 150px / auto auto auto;
-    position: center;
-    border-bottom-color: #142B56;
+    height: 300px;
+    align-content: space-evenly;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
 }
 
-
-html {
-    font-size: 14px;
-}
-
-@media (min-width: 768px) {
-    html {
-        font-size: 16px;
+    .grid-container > div {
+        background-color: #142B56;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 30px;
     }
-}
 
-.border-top {
-    border-top: 1px solid #e5e5e5;
-}
 
-.border-bottom {
-    border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy {
-    font-size: 1rem;
-    line-height: inherit;
-}
 
 /* Sticky footer styles
 -------------------------------------------------- */

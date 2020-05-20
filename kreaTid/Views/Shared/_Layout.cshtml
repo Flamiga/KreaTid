@@ -43,9 +43,8 @@
         <main role="main" class="pb-3">
             @RenderBody()
 
-
             <div class="container">
-                <img src="~/img/Header.jpg" alt="Header" class="center" >
+                <img src="~/img/Header.jpg" alt="Header" class="center" style="width:120%;">
                 <div class="centered">
                     <h1>Bliv inspireret</h1>
                     <h2>og slip kreativiteten fri</h2>
@@ -56,59 +55,44 @@
                 <h3>Inspirations blog og krea ting samlet på et sted</h3>
             </div>
 
+            <div class="center" style="padding:20px;">
+                <h4>Inspiration</h4>
+            </div>
 
-            <div class="center">
+            <div id="divider" class="center"> </div>
+
+            <div class="grid-container">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+
+            </div>
+
+            <div class="center" style="padding:20px;">
                 <h4>Shop</h4>
             </div>
 
+            <div id="divider" class="center"> </div>
+
             <div class="grid-container">
-                <div class="item1">1</div>
-                <div class="item2">2</div>
-                <div class="item3">3</div>
-                <div class="item4">4</div>
-                <div class="item5">5</div>
-                <div class="item6">6</div>
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
             </div>
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2020 - kreaTid - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="https://kit.fontawesome.com/f37f0cbff6.js" crossorigin="anonymous"></script>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @RenderSection("Scripts", required: false)
 
 
-    <div class="container">
-        <img src="~/img/Header.jpg" alt="Header" class="center" style="width:120%;">
-        <div class="centered">
-            <h1>Bliv inspireret</h1>
-            <h2>og slip kreativiteten fri</h2>
-        </div>
-    </div>
-
-    <div id="headerbanner" class="center" style="height:50px" ;>
-        <h3>Inspirations blog og krea ting samlet på et sted</h3>
-    </div>
 
 
-    <div class="center">
-        <h4>Shop</h4>
-    </div>
-
-    <div class="grid-container">
-        <div class="item1">1</div>
-        <div class="item2">2</div>
-        <div class="item3">3</div>
-        <div class="item4">4</div>
-        <div class="item5">5</div>
-        <div class="item6">6</div>
-    </div>
+            </footer>
+            <script src="https://kit.fontawesome.com/f37f0cbff6.js" crossorigin="anonymous"></script>
+            <script src="~/lib/jquery/dist/jquery.min.js"></script>
+            <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="~/js/site.js" asp-append-version="true"></script>
+            @RenderSection("Scripts", required: false)
 
 
 </body>
