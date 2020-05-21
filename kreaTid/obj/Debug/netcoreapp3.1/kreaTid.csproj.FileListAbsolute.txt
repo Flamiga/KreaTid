@@ -1,17 +1,3 @@
-<<<<<<< Updated upstream
-C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.csprojAssemblyReference.cache
-C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\staticwebassets\kreaTid.StaticWebAssets.Manifest.cache
-C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\staticwebassets\kreaTid.StaticWebAssets.xml
-C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.RazorAssemblyInfo.cache
-C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.RazorAssemblyInfo.cs
-C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.AssemblyInfoInputs.cache
-C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.AssemblyInfo.cs
-C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.TagHelpers.input.cache
-C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.TagHelpers.output.cache
-C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.RazorCoreGenerate.cache
-C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.dll
-C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.pdb
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -150,6 +136,17 @@ C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\b
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.csprojAssemblyReference.cache
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\staticwebassets\kreaTid.StaticWebAssets.Manifest.cache
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\staticwebassets\kreaTid.StaticWebAssets.xml
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.RazorAssemblyInfo.cache
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.RazorAssemblyInfo.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.AssemblyInfoInputs.cache
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.AssemblyInfo.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.TagHelpers.input.cache
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.TagHelpers.output.cache
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.RazorCoreGenerate.cache
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\BlogPostComments\Create.cshtml.g.cs
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\BlogPostComments\Delete.cshtml.g.cs
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\BlogPostComments\Details.cshtml.g.cs
@@ -162,6 +159,11 @@ C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\o
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\BlogPosts\Index.cshtml.g.cs
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Create.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Delete.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -171,6 +173,7 @@ C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\o
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.RazorTargetAssemblyInfo.cs
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.Views.pdb
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.csproj.CopyComplete
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> master
 =======
@@ -490,3 +493,7 @@ C:\Users\Dorthea Windows 10\OneDrive\Desktop\kreaTid\kreaTid\kreaTid\obj\Debug\n
 C:\Users\Dorthea Windows 10\OneDrive\Desktop\kreaTid\kreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\BlogPosts\BlogPostsView.cshtml.g.cs
 C:\Users\Dorthea Windows 10\OneDrive\Desktop\kreaTid\kreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\ProductsView.cshtml.g.cs
 C:\Users\Dorthea Windows 10\OneDrive\Desktop\kreaTid\kreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductsView.cshtml.g.cs
+=======
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.dll
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.pdb
+>>>>>>> master
