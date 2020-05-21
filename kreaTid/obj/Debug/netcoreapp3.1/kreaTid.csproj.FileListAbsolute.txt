@@ -172,10 +172,6 @@ C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\o
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.Views.pdb
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.csproj.CopyComplete
 <<<<<<< HEAD
-<<<<<<< HEAD
-C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.dll
-C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.pdb
-<<<<<<< HEAD
 >>>>>>> master
 =======
 C:\Users\John\EFIF\OneDrive - EFIF\Webdevelopment\KreaTid\kreaTid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
@@ -307,17 +303,11 @@ C:\Users\John\EFIF\OneDrive - EFIF\Webdevelopment\KreaTid\kreaTid\bin\Debug\netc
 C:\Users\John\EFIF\OneDrive - EFIF\Webdevelopment\KreaTid\kreaTid\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\John\EFIF\OneDrive - EFIF\Webdevelopment\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.csproj.CoreCompileInputs.cache
 C:\Users\John\EFIF\OneDrive - EFIF\Webdevelopment\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.MvcApplicationPartsAssemblyInfo.cache
->>>>>>> master
-=======
->>>>>>> master
-=======
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Create.cshtml.g.cs
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Delete.cshtml.g.cs
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
->>>>>>> master
-=======
 C:\Users\Dorthea Windows 10\OneDrive\Desktop\kreaTid\kreaTid\kreaTid\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Dorthea Windows 10\OneDrive\Desktop\kreaTid\kreaTid\kreaTid\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Dorthea Windows 10\OneDrive\Desktop\kreaTid\kreaTid\kreaTid\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -496,3 +486,7 @@ C:\Users\Dorthea Windows 10\OneDrive\Desktop\kreaTid\kreaTid\kreaTid\obj\Debug\n
 C:\Users\Dorthea Windows 10\OneDrive\Desktop\kreaTid\kreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.dll
 C:\Users\Dorthea Windows 10\OneDrive\Desktop\kreaTid\kreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.pdb
 >>>>>>> Stashed changes
+C:\Users\Dorthea Windows 10\OneDrive\Desktop\kreaTid\kreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\ProductsController.cshtml.g.cs
+C:\Users\Dorthea Windows 10\OneDrive\Desktop\kreaTid\kreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\BlogPosts\BlogPostsView.cshtml.g.cs
+C:\Users\Dorthea Windows 10\OneDrive\Desktop\kreaTid\kreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Products\ProductsView.cshtml.g.cs
+C:\Users\Dorthea Windows 10\OneDrive\Desktop\kreaTid\kreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductsView.cshtml.g.cs
