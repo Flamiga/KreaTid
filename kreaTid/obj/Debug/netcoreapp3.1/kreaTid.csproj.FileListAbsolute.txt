@@ -175,3 +175,9 @@ C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\o
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.csproj.CopyComplete
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.dll
 C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\kreaTid.pdb
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\TestIna\Index.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ProductComment.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\InspirationPage\Index.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_BlogPostImg.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_BlogPostComment.cshtml.g.cs
+C:\Users\Bruker\Documents\webudvekling\project\semesterProjekt\KreaTid\kreaTid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ProductImg.cshtml.g.cs

@@ -1,0 +1,80 @@
+﻿@using kreaTid.Models;
+@model IEnumerable<kreaTid.Models.BlogPost>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.BlogPostTitle)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.BlogPostDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.BlogPostContent)
+                </th>
+                <th>
+                    <b>Images</b>
+                </th>
+                <th>
+                    <b>Comments</b>
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.BlogPostTitle)
+                    </td>
+                    <td>
+                        @item.BlogPostDate.ToString("dd/MM/yyyy")
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.BlogPostContent)
+                    </td>
+                    <td>
+                        <div>
+                            @foreach (BlogPostImg BPI in item.BlogPostImgs)
+                            {
+                                <p>@await Html.PartialAsync("_BlogPostImg", BPI)</p>
+                            }
+
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            @foreach (BlogPostComment Bc in item.BlogPostComments)
+                            {
+                                <p>@await Html.PartialAsync("_BlogPostComment", Bc)</p>
+                            }
+
+                        </div>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+
+    </table>
+
+
+</body>
+</html>

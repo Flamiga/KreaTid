@@ -90,61 +90,61 @@ namespace kreaTid.Data
 
             modelBuilder.Entity<ProductImg>().HasData(
             //Product images for products connected to blog post 1
-            new ProductImg { ProductImgId = 1, ProductImgAltText = "GRENEviskelæder", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/GRENEviskelæder.jifi", ProductId = 1 },
-            new ProductImg { ProductImgId = 2, ProductImgAltText = "test", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/steadtler-mars-plastic.jifi", ProductId = 2},
+            new ProductImg { ProductImgId = 1, ProductImgAltText = "GRENEviskelæder", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/GRENEviskelæder.PNG", ProductId = 1 },
+            new ProductImg { ProductImgId = 2, ProductImgAltText = "steadtler-mars-plastic", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/steadtler-mars-plastic.PNG", ProductId = 2},
             new ProductImg { ProductImgId = 3, ProductImgAltText = "faber-castell-dust-free-eraser", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/faber-castell-dust-free-eraser.jpg", ProductId = 3},
             //Product images for products connected to blog post 2
-            new ProductImg { ProductImgId = 4, ProductImgAltText = "Design Twin Markers", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/design-twin-marker-pastel-SingleView.jpg", ProductId = 4 },
-            new ProductImg { ProductImgId = 5, ProductImgAltText = "Design Twin Markers", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/DesignTwinMarkerSideView.PNG", ProductId = 4},
-            new ProductImg { ProductImgId = 6, ProductImgAltText = "Design Twin Markers", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/DesignTwinMarker.PNG", ProductId = 4},
+            new ProductImg { ProductImgId = 4, ProductImgAltText = "Design Twin Markers", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/design-twin-marker-pastel-SingleView.jpg", ProductId = 4 },
+            new ProductImg { ProductImgId = 5, ProductImgAltText = "Design Twin Markers", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/DesignTwinMarkerSideView.PNG", ProductId = 4},
+            new ProductImg { ProductImgId = 6, ProductImgAltText = "Design Twin Markers", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/DesignTwinMarker.PNG", ProductId = 4},
 
-            new ProductImg { ProductImgId = 7, ProductImgAltText = "Copic Ciao", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/copic_ciao_styckvis.jpg", ProductId = 6},
+            new ProductImg { ProductImgId = 7, ProductImgAltText = "Copic Ciao", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/copic_ciao_styckvis.jpg", ProductId = 6},
             new ProductImg { ProductImgId = 8, ProductImgAltText = "Copic Ciao udvalgte farver", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/copic_ciao_styckvis.png", ProductId = 6},
 
-            new ProductImg { ProductImgId = 9, ProductImgAltText = "Touch Twin Marker, enkel", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/touchtwinmarker_singleview.png", ProductId = 5 },
-            new ProductImg { ProductImgId = 10, ProductImgAltText = "Touch Twin Marker, 12 stk sæt", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/TouchTwinMarker12stk.jpg", ProductId = 5 },
+            new ProductImg { ProductImgId = 9, ProductImgAltText = "Touch Twin Marker, enkel", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/touchtwinmarker_singleview.png", ProductId = 5 },
+            new ProductImg { ProductImgId = 10, ProductImgAltText = "Touch Twin Marker, 12 stk sæt", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/TouchTwinMarker12stk.jpg", ProductId = 5 },
 
             //Product images for products connected to blog post 3
-            new ProductImg { ProductImgId = 11, ProductImgAltText = "test", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Rembrandt-Soft-Pastel-Half-Stick-10-Set_250x.jpg", ProductId = 7 },
+            new ProductImg { ProductImgId = 11, ProductImgAltText = "Soft pastel", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/Rembrandt-Soft-Pastel-Half-Stick-10-Set_250x.jpg", ProductId = 7 },
 
-            new ProductImg { ProductImgId = 12, ProductImgAltText = "test", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Bruynzeel-design-pastel-pencil.jpg", ProductId = 8},
+            new ProductImg { ProductImgId = 12, ProductImgAltText = "soft pastel blyanter", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/Bruynzeel-design-pastel-pencil.jpg", ProductId = 8},
 
-            new ProductImg { ProductImgId = 13, ProductImgAltText = "Canson Mi Teintes Touch", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/canson_mi_teintes_touch", ProductId = 9},
+            new ProductImg { ProductImgId = 13, ProductImgAltText = "Canson Mi Teintes Touch", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/canson_mi_teintes_touch", ProductId = 9},
             //Product images for products connected to blog post 4
-            new ProductImg { ProductImgId = 14, ProductImgAltText = "Daler Rowney Gouache Opaque Watercolour Paint", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Daler-Rowney-Gouache-Opaque-Watercolour-Paints.jpg", ProductId = 10 },
+            new ProductImg { ProductImgId = 14, ProductImgAltText = "Daler Rowney Gouache Opaque Watercolour Paint", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/Daler-Rowney-Gouache-Opaque-Watercolour-Paints.jpg", ProductId = 10 },
 
-            new ProductImg { ProductImgId = 15, ProductImgAltText = "Lyra-Robinson-3B-Pencil", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Lyra-Robinson-3B-Pencil_250x.jpg", ProductId = 11},
+            new ProductImg { ProductImgId = 15, ProductImgAltText = "Lyra-Robinson-3B-Pencil", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/Lyra-Robinson-3B-Pencil_250x.jpg", ProductId = 11},
 
-            new ProductImg { ProductImgId = 16, ProductImgAltText = "RoyalTalens-VanGogh-191-Series-No6-Brush", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/RoyalTalens-VanGogh-191-Series-No6-Brush_250x.jpg", ProductId = 12 },
+            new ProductImg { ProductImgId = 16, ProductImgAltText = "RoyalTalens-VanGogh-191-Series-No6-Brush", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/RoyalTalens-VanGogh-191-Series-No6-Brush_250x.jpg", ProductId = 12 },
 
-            new ProductImg { ProductImgId = 17, ProductImgAltText = "KUM natural viskelæder", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/KUM-natural-eraser_250x.jpg", ProductId = 13 },
+            new ProductImg { ProductImgId = 17, ProductImgAltText = "KUM natural viskelæder", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/KUM-natural-eraser_250x.jpg", ProductId = 13 },
 
-            new ProductImg { ProductImgId = 18, ProductImgAltText = "Bockingford Block", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/BockingfordBlock.jpg", ProductId = 14 },
+            new ProductImg { ProductImgId = 18, ProductImgAltText = "Bockingford Block", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/BockingfordBlock.jpg", ProductId = 14 },
 
             //Product images for products connected to blog post 5
-            new ProductImg { ProductImgId = 19, ProductImgAltText = "30x30 cm lærred", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Lærred.jpg", ProductId = 15 },
+            new ProductImg { ProductImgId = 19, ProductImgAltText = "30x30 cm lærred", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/Lærred.jpg", ProductId = 15 },
 
-            new ProductImg { ProductImgId = 20, ProductImgAltText = "Pouring Fluid", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Pouring-Fluid.jpg", ProductId = 16 },
+            new ProductImg { ProductImgId = 20, ProductImgAltText = "Pouring Fluid", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/Pouring-Fluid.jpg", ProductId = 16 },
 
-            new ProductImg { ProductImgId = 21, ProductImgAltText = "hobby maling sort", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/hobby-maling-sort.jpg", ProductId = 17},
+            new ProductImg { ProductImgId = 21, ProductImgAltText = "hobby maling sort", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/hobby-maling-sort.jpg", ProductId = 17},
 
-            new ProductImg { ProductImgId = 22, ProductImgAltText = "Ispinde", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/ispinde.jpg", ProductId = 18 },
+            new ProductImg { ProductImgId = 22, ProductImgAltText = "Ispinde", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/ispinde.jpg", ProductId = 18 },
 
             //Product images for products connected to blog post 6
-            new ProductImg { ProductImgId = 23, ProductImgAltText = "Karton", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/karton-lysblå.jpg", ProductId = 19},
-            new ProductImg { ProductImgId = 24, ProductImgAltText = "Lim", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/lim.jpg", ProductId = 20 },
-            new ProductImg { ProductImgId = 25, ProductImgAltText = "Saks", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/saks.jpg", ProductId = 21 },
+            new ProductImg { ProductImgId = 23, ProductImgAltText = "Karton", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/karton-lysblå.jpg", ProductId = 19},
+            new ProductImg { ProductImgId = 24, ProductImgAltText = "Lim", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/lim.jpg", ProductId = 20 },
+            new ProductImg { ProductImgId = 25, ProductImgAltText = "Saks", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/saks.jpg", ProductId = 21 },
 
             //Product images for products connected to blog post 7
-            new ProductImg { ProductImgId = 26, ProductImgAltText = "posca", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/posca2.5mm.jpg", ProductId = 22},
-             new ProductImg { ProductImgId = 27, ProductImgAltText = "Posca sæt 10stk", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/POSCAset.jpg",ProductId = 22},
-            new ProductImg { ProductImgId = 28, ProductImgAltText = "Sten tegnet med POSCA", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/monstersten_1.jpg", ProductId = 22},
+            new ProductImg { ProductImgId = 26, ProductImgAltText = "posca", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/posca2.5mm.jpg", ProductId = 22},
+             new ProductImg { ProductImgId = 27, ProductImgAltText = "Posca sæt 10stk", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/POSCAset.jpg",ProductId = 22},
+            new ProductImg { ProductImgId = 28, ProductImgAltText = "Sten tegnet med POSCA", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/monstersten_1.jpg", ProductId = 22},
 
             //Product images for products connected to blog post 8
-            new ProductImg { ProductImgId = 29, ProductImgAltText = "Leuchturm1917 Dotted", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/notebogA5.jpg", ProductId = 23},
-            new ProductImg { ProductImgId = 30, ProductImgAltText = "Hand Lettering 1000 exercises", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/Hand Lettering1000exercises.jpg", ProductId = 24},
-            new ProductImg { ProductImgId = 31, ProductImgAltText = "handlettering exercises paper", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/handletteringexercisespaper.jpg", ProductId = 25},
-            new ProductImg { ProductImgId = 32, ProductImgAltText = "fine liners", ProductImgType = "productImg", ProductImgFileUrl = "~/img/varer/fineliner.jpg", ProductId = 26});
+            new ProductImg { ProductImgId = 29, ProductImgAltText = "Leuchturm1917 Dotted", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/notebogA5.jpg", ProductId = 23},
+            new ProductImg { ProductImgId = 30, ProductImgAltText = "Hand Lettering 1000 exercises", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/Hand Lettering1000exercises.jpg", ProductId = 24},
+            new ProductImg { ProductImgId = 31, ProductImgAltText = "handlettering exercises paper", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/handletteringexercisespaper.jpg", ProductId = 25},
+            new ProductImg { ProductImgId = 32, ProductImgAltText = "fine liners", ProductImgType = "productImg", ProductImgFileUrl = "../img/varer/fineliner.jpg", ProductId = 26});
 
             //mangler vores lister fra vores billeder og comments. HUSK INDSÆT ANDRE DATOER!!! or not lol
             modelBuilder.Entity<BlogPost>().HasData(
@@ -164,43 +164,43 @@ namespace kreaTid.Data
 
             modelBuilder.Entity<BlogPostImg>().HasData(
                 //Images for blog post 1
-               new BlogPostImg { BlogPostImgId = 1, ImgAltText = "Før viskelædere blev brugt", ImgFileUrl = "~/img/BlogBilleder/viskelædertest1.jpg", ImgType = "blogbillede", BlogPostId = 1 },
-               new BlogPostImg { BlogPostImgId = 2, ImgAltText = "Efter steadler mars", ImgFileUrl = "~/img/BlogBilleder/viskelædertest2.jpg", ImgType = "blogbillede", BlogPostId = 1 },
-               new BlogPostImg { BlogPostImgId = 3, ImgAltText = "Efter steadler mars og Grene", ImgFileUrl = "~/img/BlogBilleder/viskelædertest3.jpg", ImgType = "blogbillede", BlogPostId = 1 },
-               new BlogPostImg { BlogPostImgId = 4, ImgAltText = "Alle viskelædre brugt", ImgFileUrl = "~/img/BlogBilleder/viskelædertest4.jpg", ImgType = "blogbillede", BlogPostId = 1 },
+               new BlogPostImg { BlogPostImgId = 1, ImgAltText = "Før viskelædere blev brugt", ImgFileUrl = "../img/BlogBilleder/viskelædertest1.jpg", ImgType = "blogbillede", BlogPostId = 1 },
+               new BlogPostImg { BlogPostImgId = 2, ImgAltText = "Efter steadler mars", ImgFileUrl = "../img/BlogBilleder/viskelædertest2.jpg", ImgType = "blogbillede", BlogPostId = 1 },
+               new BlogPostImg { BlogPostImgId = 3, ImgAltText = "Efter steadler mars og Grene", ImgFileUrl = "../img/BlogBilleder/viskelædertest3.jpg", ImgType = "blogbillede", BlogPostId = 1 },
+               new BlogPostImg { BlogPostImgId = 4, ImgAltText = "Alle viskelædre brugt", ImgFileUrl = "../img/BlogBilleder/viskelædertest4.jpg", ImgType = "blogbillede", BlogPostId = 1 },
                //Images for blog post 2
-               new BlogPostImg { BlogPostImgId = 5, ImgAltText = "Linje tykkelser og flade eksempler med de tre marker typer", ImgFileUrl = "~/img/BlogBilleder/markertest.jpg", ImgType = "blogbillede", BlogPostId = 2 },
+               new BlogPostImg { BlogPostImgId = 5, ImgAltText = "Linje tykkelser og flade eksempler med de tre marker typer", ImgFileUrl = "../img/BlogBilleder/markertest.jpg", ImgType = "blogbillede", BlogPostId = 2 },
                //Images for blog post 3
-               new BlogPostImg { BlogPostImgId = 6, ImgAltText = "Break Away Heart by Marlene Rye", ImgFileUrl = "~/img/BlogBilleder/Marlene-Rye_Break-Away-Heart", ImgType = "Coverbillede", BlogPostId = 3 },
-               new BlogPostImg { BlogPostImgId = 7, ImgAltText = "Fan eksemple på soft pastel brug", ImgFileUrl = "~/img/BlogBilleder/krinstikeks.jpg", ImgType = "blogbillede", BlogPostId = 3 },
-               new BlogPostImg { BlogPostImgId = 8, ImgAltText = "Soft pastel marterialer", ImgFileUrl = "~/img/BlogBilleder/softpastelmaterials.jpg", ImgType = "blogbillede", BlogPostId = 3 },
+               new BlogPostImg { BlogPostImgId = 6, ImgAltText = "Break Away Heart by Marlene Rye", ImgFileUrl = "../img/BlogBilleder/Marlene-Rye_Break-Away-Heart.jpg", ImgType = "Coverbillede", BlogPostId = 3 },
+               new BlogPostImg { BlogPostImgId = 7, ImgAltText = "Fan eksemple på soft pastel brug", ImgFileUrl = "../img/BlogBilleder/krinstikeks.jpg", ImgType = "blogbillede", BlogPostId = 3 },
+               new BlogPostImg { BlogPostImgId = 8, ImgAltText = "Soft pastel marterialer", ImgFileUrl = "../img/BlogBilleder/softpastelmaterials.jpg", ImgType = "blogbillede", BlogPostId = 3 },
                //Images for blog post 4
-               new BlogPostImg { BlogPostImgId = 9, ImgAltText = "RisoChan Gouache Materialer", ImgFileUrl = "~/img/BlogBilleder/RisoChan-GouacheMaterialer,jpg", ImgType = "Coverbillede", BlogPostId = 4 },
-               new BlogPostImg { BlogPostImgId = 10, ImgAltText = "Riso Chans Gouache maleri", ImgFileUrl = "~/img/BlogBilleder/risochan-web.jpg", ImgType = "blogbillede", BlogPostId = 4 },
-               new BlogPostImg { BlogPostImgId = 11, ImgAltText = "Gouache marterialer", ImgFileUrl = "~/img/BlogBilleder/Gouachematerials.jpg", ImgType = "blogbillede", BlogPostId = 4 },
+               new BlogPostImg { BlogPostImgId = 9, ImgAltText = "RisoChan Gouache Materialer", ImgFileUrl = "../img/BlogBilleder/RisoChan-GouacheMaterialer.jpg", ImgType = "Coverbillede", BlogPostId = 4 },
+               new BlogPostImg { BlogPostImgId = 10, ImgAltText = "Riso Chans Gouache maleri", ImgFileUrl = "../img/BlogBilleder/risochan-web.jpg", ImgType = "blogbillede", BlogPostId = 4 },
+               new BlogPostImg { BlogPostImgId = 11, ImgAltText = "Gouache marterialer", ImgFileUrl = "../img/BlogBilleder/Gouachematerials.jpg", ImgType = "blogbillede", BlogPostId = 4 },
                //Images for blog post 5
-               new BlogPostImg { BlogPostImgId = 12, ImgAltText = "pourpainting trin 1", ImgFileUrl = "~/img/BlogBilleder/pourpainting-1.jpg", ImgType = "blogbillede", BlogPostId = 5 },
-               new BlogPostImg { BlogPostImgId = 13, ImgAltText = "pourpainting trin 2", ImgFileUrl = "~/img/BlogBilleder/pourpainting-2.jpg", ImgType = "blogbillede", BlogPostId = 5 },
-               new BlogPostImg { BlogPostImgId = 14, ImgAltText = "pourpainting trin 3", ImgFileUrl = "~/img/BlogBilleder/pourpainting-3.jpg", ImgType = "blogbillede", BlogPostId = 5 },
-               new BlogPostImg { BlogPostImgId = 15, ImgAltText = "pourpainting trin 4", ImgFileUrl = "~/img/BlogBilleder/pourpainting-4.jpg", ImgType = "blogbillede", BlogPostId = 5 },
-               new BlogPostImg { BlogPostImgId = 16, ImgAltText = "pourpainting trin 5", ImgFileUrl = "~/img/BlogBilleder/pourpainting-5.jpg", ImgType = "blogbillede", BlogPostId = 5 },
-               new BlogPostImg { BlogPostImgId = 17, ImgAltText = "pourpainting trin 6", ImgFileUrl = "~/img/BlogBilleder/pourpainting-6.jpg", ImgType = "blogbillede", BlogPostId = 5 },
-               new BlogPostImg { BlogPostImgId = 18, ImgAltText = "pourpainting trin 7", ImgFileUrl = "~/img/BlogBilleder/pourpainting-7.jpg", ImgType = "blogbillede", BlogPostId = 5 },
-               new BlogPostImg { BlogPostImgId = 19, ImgAltText = "pourpainting trin 8", ImgFileUrl = "~/img/BlogBilleder/pourpainting-8.jpg", ImgType = "blogbillede", BlogPostId = 5 },
-               new BlogPostImg { BlogPostImgId = 20, ImgAltText = "pourpainting trin 9", ImgFileUrl = "~/img/BlogBilleder/pourpainting-9.jpg", ImgType = "blogbillede", BlogPostId = 5 },
-               new BlogPostImg { BlogPostImgId = 21, ImgAltText = "pourpainting trin 10", ImgFileUrl = "~/img/BlogBilleder/pourpainting-10.jpg", ImgType = "blogbillede", BlogPostId = 5 },
-               new BlogPostImg { BlogPostImgId = 22, ImgAltText = "pourpainting trin 11", ImgFileUrl = "~/img/BlogBilleder/pourpainting-11.jpg", ImgType = "blogbillede", BlogPostId = 5 },
-               new BlogPostImg { BlogPostImgId = 23, ImgAltText = "pourpainting trin 12", ImgFileUrl = "~/img/BlogBilleder/pourpainting-12.jpg", ImgType = "Coverbillede", BlogPostId = 5 },
+               new BlogPostImg { BlogPostImgId = 12, ImgAltText = "pourpainting trin 1", ImgFileUrl = "../img/BlogBilleder/pourpainting-1.jpg", ImgType = "blogbillede", BlogPostId = 5 },
+               new BlogPostImg { BlogPostImgId = 13, ImgAltText = "pourpainting trin 2", ImgFileUrl = "../img/BlogBilleder/pourpainting-2.jpg", ImgType = "blogbillede", BlogPostId = 5 },
+               new BlogPostImg { BlogPostImgId = 14, ImgAltText = "pourpainting trin 3", ImgFileUrl = "../img/BlogBilleder/pourpainting-3.jpg", ImgType = "blogbillede", BlogPostId = 5 },
+               new BlogPostImg { BlogPostImgId = 15, ImgAltText = "pourpainting trin 4", ImgFileUrl = "../img/BlogBilleder/pourpainting-4.jpg", ImgType = "blogbillede", BlogPostId = 5 },
+               new BlogPostImg { BlogPostImgId = 16, ImgAltText = "pourpainting trin 5", ImgFileUrl = "../img/BlogBilleder/pourpainting-5.jpg", ImgType = "blogbillede", BlogPostId = 5 },
+               new BlogPostImg { BlogPostImgId = 17, ImgAltText = "pourpainting trin 6", ImgFileUrl = "../img/BlogBilleder/pourpainting-6.jpg", ImgType = "blogbillede", BlogPostId = 5 },
+               new BlogPostImg { BlogPostImgId = 18, ImgAltText = "pourpainting trin 7", ImgFileUrl = "../img/BlogBilleder/pourpainting-7.jpg", ImgType = "blogbillede", BlogPostId = 5 },
+               new BlogPostImg { BlogPostImgId = 19, ImgAltText = "pourpainting trin 8", ImgFileUrl = "../img/BlogBilleder/pourpainting-8.jpg", ImgType = "blogbillede", BlogPostId = 5 },
+               new BlogPostImg { BlogPostImgId = 20, ImgAltText = "pourpainting trin 9", ImgFileUrl = "../img/BlogBilleder/pourpainting-9.jpg", ImgType = "blogbillede", BlogPostId = 5 },
+               new BlogPostImg { BlogPostImgId = 21, ImgAltText = "pourpainting trin 10", ImgFileUrl = "../img/BlogBilleder/pourpainting-10.jpg", ImgType = "blogbillede", BlogPostId = 5 },
+               new BlogPostImg { BlogPostImgId = 22, ImgAltText = "pourpainting trin 11", ImgFileUrl = "../img/BlogBilleder/pourpainting-11.jpg", ImgType = "blogbillede", BlogPostId = 5 },
+               new BlogPostImg { BlogPostImgId = 23, ImgAltText = "pourpainting trin 12", ImgFileUrl = "../img/BlogBilleder/pourpainting-12.jpg", ImgType = "Coverbillede", BlogPostId = 5 },
                //Images for blog post 6
-               new BlogPostImg { BlogPostImgId = 24, ImgAltText = "clipart-1", ImgFileUrl = "~/img/BlogBilleder/clipart-1.jpg", ImgType = "blogbillede", BlogPostId = 6 },
-               new BlogPostImg { BlogPostImgId = 25, ImgAltText = "clipart-2", ImgFileUrl = "~/img/BlogBilleder/clipart-2.jpg", ImgType = "Coverbillede", BlogPostId = 6 },
-               new BlogPostImg { BlogPostImgId = 26, ImgAltText = "clipart-3", ImgFileUrl = "~/img/BlogBilleder/clipart-3.jpg", ImgType = "blogbillede", BlogPostId = 6 },
+               new BlogPostImg { BlogPostImgId = 24, ImgAltText = "clipart-1", ImgFileUrl = "../img/BlogBilleder/clipart-1.jpg", ImgType = "blogbillede", BlogPostId = 6 },
+               new BlogPostImg { BlogPostImgId = 25, ImgAltText = "clipart-2", ImgFileUrl = "../img/BlogBilleder/clipart-2.jpg", ImgType = "Coverbillede", BlogPostId = 6 },
+               new BlogPostImg { BlogPostImgId = 26, ImgAltText = "clipart-3", ImgFileUrl = "../img/BlogBilleder/clipart-3.jpg", ImgType = "blogbillede", BlogPostId = 6 },
                //Images for blog post 7
-               new BlogPostImg { BlogPostImgId = 27, ImgAltText = "Posca på sten", ImgFileUrl = "~/img/BlogBilleder/drawingsstone.jpg", ImgType = "Coverbillede", BlogPostId = 7 },
-               new BlogPostImg { BlogPostImgId = 28, ImgAltText = "Posca på sten", ImgFileUrl = "~/img/BlogBilleder/monstersten_1.jpg", ImgType = "blogbillede", BlogPostId = 7 },
+               new BlogPostImg { BlogPostImgId = 27, ImgAltText = "Posca på sten", ImgFileUrl = "../img/BlogBilleder/drawingsstone.jpg", ImgType = "Coverbillede", BlogPostId = 7 },
+               new BlogPostImg { BlogPostImgId = 28, ImgAltText = "Posca på sten", ImgFileUrl = "../img/BlogBilleder/monstersten_1.jpg", ImgType = "blogbillede", BlogPostId = 7 },
                //Images for blog post 8
-               new BlogPostImg { BlogPostImgId = 29, ImgAltText = "Bullet journal", ImgFileUrl = "~/img/BlogBilleder/bulletjournal1.jpg", ImgType = "Coverbillede", BlogPostId = 8 },
-               new BlogPostImg { BlogPostImgId = 30, ImgAltText = "Bullet journal", ImgFileUrl = "~/img/BlogBilleder/bulletjournal2.jpg", ImgType = "blogbillede", BlogPostId = 8 }
+               new BlogPostImg { BlogPostImgId = 29, ImgAltText = "Bullet journal", ImgFileUrl = "../img/BlogBilleder/bulletjournal1.jpg", ImgType = "Coverbillede", BlogPostId = 8 },
+               new BlogPostImg { BlogPostImgId = 30, ImgAltText = "Bullet journal", ImgFileUrl = "../img/BlogBilleder/bulletjournal2.jpg", ImgType = "blogbillede", BlogPostId = 8 }
                 );
 
         }
