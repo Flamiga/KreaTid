@@ -3,6 +3,8 @@ for details on configuring this project to bundle and minify static web assets. 
 
 
 
+
+
 .bg-img {
     /* The image used */
     background-image: url("../img/TopHeader.png");
@@ -18,12 +20,10 @@ for details on configuring this project to bundle and minify static web assets. 
 
 /* Container holding the image and the text */
 .container {
-    background-size: cover;
+    background-size: 100%;
     position: center;
     text-align: center;
     color: white;
-    border-image-width: 100%;
-    position: center;
 }
 
 /* Cover Image*/
@@ -37,11 +37,12 @@ img {
 /* Centered text */
 .centered {
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+/* NAV BAR DESIGN */
 
 a.navbar-brand {
     white-space: normal;
@@ -50,9 +51,6 @@ a.navbar-brand {
     width: 40%;
 }
 
-
-
-/* Provide sufficient contrast against white background */
 a {
     color: #0366d6;
 }
@@ -61,6 +59,9 @@ a {
     color: #fff;
     background-color: #1b6ec2;
     border-color: #1861ac;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -68,6 +69,11 @@ a {
     background-color: #1b6ec2;
     border-color: #1861ac;
 }
+
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link:hover {
+        background-color: #1b6ec2;
+        border-color: #1861ac;
+    }
 
 /* FONT HEADERS
 -------------------------------------------------- */
@@ -112,7 +118,6 @@ h4 {
     background-color: #142B56;
     position: center;
     text-align: center;
-    width: 100%;
 }
 
 #divider {
@@ -135,12 +140,15 @@ h4 {
 }
 
     .grid-container > div {
-        background-color: #142B56;
+        background-color: #627EB1;
         text-align: center;
         padding: 10px 0;
         font-size: 30px;
     }
 
+        .grid-container > div:hover {
+            background-color: #3A63AD;
+        }
 
 
 /* Sticky footer styles
