@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\kreaTid.csproj": {}
   },
   "projects": {
@@ -16,22 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\kreaTid.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\kreaTid.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\kreaTid.csproj",
-        "projectName": "kreaTid",
-        "projectPath": "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\kreaTid.csproj",
-        "packagesPath": "C:\\Users\\Bruker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Bruker\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> master
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

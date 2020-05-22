@@ -8591,34 +8591,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    "C:\\Users\\Dorthea Windows 10\\.nuget\\packages\\": {}
-=======
     "C:\\Users\\John\\.nuget\\packages\\": {}
->>>>>>> Stashed changes
-=======
-    "C:\\Users\\Bruker\\.nuget\\packages\\": {}
->>>>>>> master
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-      "projectUniqueName": "C:\\Users\\Dorthea Windows 10\\OneDrive\\Desktop\\kreaTid\\kreaTid\\kreaTid\\kreaTid.csproj",
-=======
-      "projectUniqueName": "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\kreaTid.csproj",
->>>>>>> master
-      "projectName": "kreaTid",
-      "projectPath": "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\kreaTid.csproj",
-      "packagesPath": "C:\\Users\\Bruker\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bruker\\Documents\\webudvekling\\project\\semesterProjekt\\KreaTid\\kreaTid\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\Dorthea Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
       "projectUniqueName": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\kreaTid.csproj",
       "projectName": "kreaTid",
       "projectPath": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\kreaTid.csproj",
@@ -8627,10 +8604,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> Stashed changes
-=======
-        "C:\\Users\\Bruker\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> master
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
