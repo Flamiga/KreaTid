@@ -10,8 +10,8 @@ using kreaTid.Data;
 namespace kreaTid.Migrations
 {
     [DbContext(typeof(kreaTidContext))]
-    [Migration("20200520083807_Initialcreate")]
-    partial class Initialcreate
+    [Migration("20200521134407_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -46,56 +46,56 @@ namespace kreaTid.Migrations
                         {
                             BlogPostId = 1,
                             BlogPostContent = "<p>Viskelæderet, et af tegnerens vigtige redskaber. Men er viskelæder ikke bare et viskelæder? Hvis du tænker det er så nemt må vi desværre skuffe dig. Jo hvis du bare skal viske noget ud hurtigt, kan et almindeligt viskelæder godt bruges. Men når du arbejder på et projekt og du lige skal rette noget ville det så ikke være ærgerligt hvis blyanten blot blev tværet ud eller den lineart (linjerne i tegning ofte tegnet op med en form for blæk pen) du har brugt timer på delvist forsvinder eller bliver ødelagt når du visker skitsen under ud? Vi synes det er ærgerligt at gå på kompromi så vi har kigget på et udvalg af viskelædere og sammenlignet dem for at hjælpe dig med at vælge lige den der passer til dit behov. </p><p> Den første er det klassiske Staedler mars plastic viskelæder. Som det kan ses på billedeter det godt til blyant tager lidt blæk med og ødelægger lidt farveblyanten. </p><p> Det næste er et billigt GRENE viskelæder. Denne klare sig ikke helt lige så godt som Steadler Mars. </p><p> Den sidste er Faber - Castell ‘Dust - free’. Dette er ikke helt støvfri men producerer en del mindre støv end de andre viskelædere.</p><p>Alt i alt Er Faber - Catell godt hvis man er træt af støv, GRENE godt hvis man bare vil have en billigt løsning og Steadler godt hvis man ikke har noget imod at skulle fjerne støvet.Du kan selv prøve dem af hvis du vil se det med dine egne øjne.</p>",
-                            BlogPostDate = new DateTime(2020, 5, 20, 10, 38, 6, 100, DateTimeKind.Local).AddTicks(4929),
+                            BlogPostDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(3674),
                             BlogPostTitle = "Bedste viskelæder til dit behov"
                         },
                         new
                         {
                             BlogPostId = 2,
                             BlogPostContent = "<p>Der findes mange forskellige mærker af markers og det kan være svært at vide hvad der er bedst. Så her sammenligner vi 3 mærker af markers og giver vores anbefalinger til dig om hvad de er gode til.</p><p>Den første er Design Twin Markers.En af de billigere muligheder derude.De har et godt udvalg af farver.De har en spids i hver ende.En bullet tip i den ene til mere præcis.En chisel tip i den anden ende til større områder.Kvaliteten er god.</ p >< p >Den næste vi har kigget på er er Touch Twin Markers.Har et godt farveudvalg.Ligesom Design Twin Markers har de to spiser.Den ene værende den brede chisel tip og den anden værende en Brush tip.Brush tip er mere fleksible og giver større variation i de linjer man kan lave med dem.De gør det nemt at lave fine detaljer og farvelægge lidt større områder nemt og hurtigt.De har god blæk der en god enshed.</ p >< p >Sidst kiggede vi på Copic.Et af de mest kendte mærker, men også en af de dyreste.Det er et mærke ofte brugt af professionelle.Copic fås i forskellige slags Original, Sketch og Ciao.Vi har valgt at fokusere på Ciao den billigste version som er god hvis man har lyst at prøve copic uden at skal tømme lommerne helt.De har dog også mindre blæk i sig.Copic Ciao har også chisel og brush tips.God kvalitet blæk med jævn fordeling.</ p >< p > Design Twin Markers er gode som er billigere mulighed hvis ikke Brush tip er noget man er interesseret i.Touch Twin Markers er lidt dyrerer, men en godt bud hvis du gerne vil prøve at arbejde med brush markers uden at skulle investerer helt vildt stort.Sidst Copic Ciao godt til at prøve Copic og begynde i det mere professionelle, men hvis du allerede ved du vil komme til at bruge dem meget  kan den hurtigt blive en fordel at vælge Sketch versionen da disse kan genopfyldes.</ p >< p > Nu kan de vælge bedre efter behov eller teste dem alle og se hvad der passer dig bedst.</p>",
-                            BlogPostDate = new DateTime(2020, 5, 20, 10, 38, 6, 100, DateTimeKind.Local).AddTicks(5443),
+                            BlogPostDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(4359),
                             BlogPostTitle = "Hvilken marker er bedst til dig"
                         },
                         new
                         {
                             BlogPostId = 3,
                             BlogPostContent = "<p>Man må omfavne rod og kaos, når man arbejder med soft pastel. Kunstner Marlene Rye har vist os har hvad man kan opnå med de støvende farver.Med brug af soft pastel, pastelblyanter og pastel venlige Canson Mi - Teintes Touch Papir har hun skabt et smukt landskab. </p><p>Tegn med pastel på papiret de store figure og farve felter fra dit motiv.Gem de fine detaljer til senere.Du vil sandsynligvis kunne se noget af papiret igennem farverne.Detaljer kan være svære at opnå med soft pastel så fortvivl ikke hvis det ikke ligner helt!</p><p>Når farverne er på plads kan du bruge en finger til at blande farverne.Du kan også bruge et stykke køkkenrulle for at få mindre på fingerne.Nu skulle du have skabt en mere solid farve med mindre papir synligt.Mangler der farve nogle steder ? Tilføj mere og bland eller blend med fingre eller papir igen.</p><p>Så det tid til detaljer! Brug kanterne af soft pastel stykkerne og eller supplimenter med pastelblyanterne og tegn detaljerne ind.Blend ikke her for at behold de skarpeste detaljer. Gennemgå til du er tilfreds eller mere farve ikke vil hænge ved papiret og prøv et nyt motiv eller det samme igen og se om det er nemmere denne gang.Måske du opdager din helt egen måde og rækkefølge at bruge materialerne i.Skitse med blyanter først evt. for nemmere at fylde farverne ind eller brug udelukkende soft pastel stykker i stor bløde strøg.Der er mange måder at gøre det på.</p><p>Marlene Rye har udvalgt farverne og materialerne hun selv har brugt i billedet.Prøv dem selv af og få inspiration fra de ørken inspirerede farver og hendes fantastiske eksempel på brugen af dem.</p><h3>Om Kunstneren:</h3><p>Marlene Rye har en A.B.fra Smith College og en M.F.A.fra University of Pennsylvania.Hun har studeret under Andrew Forge, Barbara Grossman, John Moore og Martha Armstrong.Hendes arbejde er blevet vist nationalt og er blevet accepteret til bedømte shows med højtstående konservatorer fra Whitney Museum of American Art og Guggenheim.Hun har haft 20 solo - shows siden 1994.</ p >< p >Instagram: @marlenerye_art <br>Facebook: Marlene Rye Art <br>Website: <a href='www.MarleneRye.com' terget='_blank' > www.MarleneRye.com </a></p>",
-                            BlogPostDate = new DateTime(2020, 5, 20, 10, 38, 6, 100, DateTimeKind.Local).AddTicks(5465),
+                            BlogPostDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(4389),
                             BlogPostTitle = "Prøv soft pastel"
                         },
                         new
                         {
                             BlogPostId = 4,
                             BlogPostContent = "<p>Oplev kompleksiteten af menneskets følelser med kunstneren Riso Chan når du bruger disse omhyggeligt udvalgte farve palette af Daler Rowney Aquafine Gouache.</p><p>Riso Chan demonstrarer hvordan hun bruger disse nemt og simplet.</p><p>Skitser et motiv på et stykke papir med nogen vægt.f.eks.Bockingford CP Watercolour Paper(220gsm).Mal derefter med penslen.Gouachen er vandbaseret så du kan fortynde det med vand og få endnu mere ud af farverne.</p><p>Start evt.ud med et tyndere vand for tyndt lag i de lys områder.Det første lag behøver ikke være perfekt da gouache ikke er gennemsigtig og du kan lægge et lag farve oven på.Husk dog at jo mere vand det er blandet med jo mere gennemsigtig vil det være.</p><p>Fortsæt med at bygge lagene op med mere eller mindre vand i gouachen eller måske bare helt direkte fra tuben.</p><p>Riso Chan har udarbejdet et eksempel på en et emotionelt ansigt med disse materialer.Prøv selv kræfter med dem.Male et ansigt med følelserne vist i både farver og udseende.Tag inspiration fra Riso Chans billede og udforsk følelser.Hvem vil du male og hvad føler de!</p><p><h3>Om Kunstneren:</h3><p>Riso Chan er en kunstner og kreativ lærer med base i Amsterdam.Hun voksede op i et kunstnerisk miljø, hvor hendes mor var billedhugger, der inspirerede hende til at udforske sin egen kreativitet fra en tidlig alder.Hun mener, at portrætter kan være en meget kraftig måde at udtrykke følelser og menneskelig skønhed på.Det er et sprog på egen hånd, der ikke bruger ord til at kommunikere, det er derfor, det meste af hendes arbejde drejer sig om portrætter.Riso arbejder hovedsageligt med akvarel og gouache, skønt hun også sommetider eksperimenterer med digitalt maleri.</p><p>Instagram - @risochan</p>",
-                            BlogPostDate = new DateTime(2020, 5, 20, 10, 38, 6, 100, DateTimeKind.Local).AddTicks(5469),
+                            BlogPostDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(4395),
                             BlogPostTitle = "Ny med gouache"
                         },
                         new
                         {
                             BlogPostId = 5,
                             BlogPostContent = "<p>I disse indelukkede dage kan det være svært at få tiden til at gå. Men hvorfor ikke bruge tiden med de små i hjemmet og lav noget nyt pynt til væggene? I disse indelukkede dage kan det være svært at få tiden til at gå. Men hvorfor ikke bruge tiden med de små i hjemmet og lav noget nyt pynt til væggene?</p><p>Med Pouring-Fluid og hobbymaling kan man lave flotte abstrakte værker med marmoreringseffekt.Prøv det selv med disse trin.</p><p>TRIN 1. Læg alle materialerne frem: Lærred, maling, Pouring-Fluid, plastkrus, rørepinde/ispinde, gummihandsker, underlag og noget, der hæver lærredet op fra underlaget.</p><p>Hver opmærksom på at 150 ml Pouring-Fluid er lige akkurat nok til et lærred på 30 x 30 cm.</p><p>TRIN 2. Hæld lidt af hver farve maling du vil bruge op i hvert sit krus. Hæld Pouring-Fluid oveni. Blandingen skal være så flydende, at den løber.</p><p>TRIN 3. Rør så malingen og Pouring-Fluid bliver godt blandet.</p><p>TRIN 4.Tag et nyt krus og hæld den hvide blanding i først. Hæld derefter en anden farve ned i midten. Efterfølgende hælder du en tredje farve ned i midten.TRIN 5.Stik forsigtigt rørepinden ned midt i og træk farven ud i siden.</p><p>TRIN 6.Læg lærredet ovenpå kruset og vend det hele, så lærredet ender nederst.</p><p>TRIN 7.Løft kruset så al malingen løber ud.</p><p>TRIN 8. Løft lærredet og vip det til siderne, så malingen løber.</p><p>TRIN 9.Hæld flere farveblandinger i kruset, gerne flere forskellige farver, og fortsæt til lærredet er dækket. Lad det også løbe ned ad siderne.</p><p>TRIN 10.Mal linjer på maleriet ved at hælde en ren farveblanding på.</p><p>TRIN 11.Bland evt. en fjerde farve med (her er brugt blå).</p><p>TRIN 12.Løft lærredet igen og lad farverne løbe til du er tilfreds. Vær opmærksom på at farverne løber lidt videre af sig selv, når du lægger lærredet ned igen. Lad værket tørre i mindst 24 timer</p><p>Nu har i laver et flot værk der kan hænges på vægge og give nyt liv i rummet. </p>",
-                            BlogPostDate = new DateTime(2020, 5, 20, 10, 38, 6, 100, DateTimeKind.Local).AddTicks(5472),
+                            BlogPostDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(4401),
                             BlogPostTitle = "Mal med de små"
                         },
                         new
                         {
                             BlogPostId = 6,
                             BlogPostContent = "<p>Klip flotte gækkebreve med detaljerede mønstre af påskekyllinger og påskeliljer. Du kan klippe ud fra gækkebrev skabelonerne, du finder her på siden eller lave dine egne flotte designs.</p><p><h3>Step 1.</h3><p>Find evt.gækkebrev skabelonerne, og klip omridset af skabelonen ud.</p><h3>Step 2.</h3><p>Fold et A4 papir efter anvisningen på kabelonarket.Vær opmærksom på at hjørnerne mødes, så gækkebrevet kan foldes ud.Sæt skabelonen fast med clips og klip med en god, spids saks.</p><h3>Step 3.</h3><p>Line op med kanterne og lim fast til karton. Flere version som du har løst. Så kan du sende det til bedsteforældrene eller vennerne og håbe de ikke kan gætte det.</p> ",
-                            BlogPostDate = new DateTime(2020, 5, 20, 10, 38, 6, 100, DateTimeKind.Local).AddTicks(5477),
+                            BlogPostDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(4407),
                             BlogPostTitle = "Gækkebrev med påskekylling"
                         },
                         new
                         {
                             BlogPostId = 7,
                             BlogPostContent = "<p>Med Posca tusch kan du tegne på sten med hobbymaling. Tuschen er dækkende og tørrer hurtigt - derfor er den helt perfekt at bruge til at male på sten.</p><h3>Trin 1</h3><p>Tegn og mal fine figurer og motiver på sten med Posca tuscher.</p><h3>Trin 2</h3><p>Giv evt.stenen en gang lak for at bevarer motiverne længere.</p><p>Der er mange måde motiver og materialer at bruge Posca tusserne med.</p>",
-                            BlogPostDate = new DateTime(2020, 5, 20, 10, 38, 6, 100, DateTimeKind.Local).AddTicks(5480),
+                            BlogPostDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(4412),
                             BlogPostTitle = "Posca på sten til nye have dekorationer"
                         },
                         new
                         {
                             BlogPostId = 8,
                             BlogPostContent = "<p>Med en bullet journal kan du skrive noter, lave lister samt bruge den som kalender. En bullet journal bruges både til at give én overblik over det, man har gang i, men også som et afstressende øjeblik i hverdagen. Kom nemt i gang med brug af øvehæftet.</p><h3>Trin 1</h3><p>Skriv og tegn de lister kalendere eller aktivitets sporinger du vil.</p><h3>Trin 2</h3><p>Tilføj farver med dine tusser(ofte vandbaserede, da alkoholbaserede for det meste går igennem sidernes papir).</p><h3>Trin 3</h3><p>Øvehæftet gør det nemt at finde inspiration og skabe stemninger i bogen.</p><p>Mangler du mere inspiration? Der er masser af folk på nettet der giver tips og tricks til hvordan de laver deres bullet journal, men de vil altid være personlige for dem der bruger dem.Prøv det selv med vores samling af begyndervenlige bullet journal materialer.</p>",
-                            BlogPostDate = new DateTime(2020, 5, 20, 10, 38, 6, 100, DateTimeKind.Local).AddTicks(5483),
+                            BlogPostDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(4421),
                             BlogPostTitle = "Start din bullet journal Rejse"
                         });
                 });
@@ -132,11 +132,128 @@ namespace kreaTid.Migrations
                         new
                         {
                             BlogPostCommentId = 1,
-                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 20, 10, 38, 6, 100, DateTimeKind.Local).AddTicks(8000),
-                            BlogPostCommentPublishDate = new DateTime(2020, 5, 20, 10, 38, 6, 100, DateTimeKind.Local).AddTicks(7369),
-                            BlogPostCommentText = "what",
-                            BlogPostCommentUser = "who",
-                            BlogPostId = 1
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(7545),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(6918),
+                            BlogPostCommentText = "Jeg har været glade for Touch Twin marker og bruger dem i mange projekter, dog ønsker jeg Copic tusser da de ser gode ud. ",
+                            BlogPostCommentUser = "Helle H",
+                            BlogPostId = 2
+                        },
+                        new
+                        {
+                            BlogPostCommentId = 2,
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9148),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9105),
+                            BlogPostCommentText = "Copic tuscher er dyre men helt klart den bedste på marked!",
+                            BlogPostCommentUser = "Anja K",
+                            BlogPostId = 2
+                        },
+                        new
+                        {
+                            BlogPostCommentId = 3,
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9236),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9229),
+                            BlogPostCommentText = "Er glade for mine design twin marker.",
+                            BlogPostCommentUser = "Anna M",
+                            BlogPostId = 2
+                        },
+                        new
+                        {
+                            BlogPostCommentId = 4,
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9275),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9269),
+                            BlogPostCommentText = "Malene Rye er en af mine yndlings kunstner, elsker hendes billeder!",
+                            BlogPostCommentUser = "Lilje P",
+                            BlogPostId = 3
+                        },
+                        new
+                        {
+                            BlogPostCommentId = 5,
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9314),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9308),
+                            BlogPostCommentText = "Flotte billeder, som jeg vil elske at have hængende derhjemme.",
+                            BlogPostCommentUser = "Ulla H",
+                            BlogPostId = 3
+                        },
+                        new
+                        {
+                            BlogPostCommentId = 6,
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9357),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9351),
+                            BlogPostCommentText = "Spændende!",
+                            BlogPostCommentUser = "Helle K",
+                            BlogPostId = 4
+                        },
+                        new
+                        {
+                            BlogPostCommentId = 7,
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9396),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9390),
+                            BlogPostCommentText = "Fine billeder maler også selv med vandfarver og får nogle virkelig unikke billeder.",
+                            BlogPostCommentUser = "Grethe G",
+                            BlogPostId = 4
+                        },
+                        new
+                        {
+                            BlogPostCommentId = 8,
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9436),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9429),
+                            BlogPostCommentText = "Det er virkelig sjovt at lave de billeder, og alle roser mine billeder.",
+                            BlogPostCommentUser = "Dorthe F",
+                            BlogPostId = 5
+                        },
+                        new
+                        {
+                            BlogPostCommentId = 9,
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9474),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9468),
+                            BlogPostCommentText = "Det griser lidt på bordet men jeg får nogle flotte billeder",
+                            BlogPostCommentUser = " Sanne S",
+                            BlogPostId = 5
+                        },
+                        new
+                        {
+                            BlogPostCommentId = 10,
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9516),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9510),
+                            BlogPostCommentText = "Det ser sjov ud det skal jeg helt bestemt prøve. Kan jeg bruge hvilken som helst maling til det?",
+                            BlogPostCommentUser = "Johanna L",
+                            BlogPostId = 5
+                        },
+                        new
+                        {
+                            BlogPostCommentId = 11,
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9555),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9549),
+                            BlogPostCommentText = "Børnene og jeg nyder at male små sten som vi sætter rundt i byen. Det trækker lidt på smilebåndet.",
+                            BlogPostCommentUser = "Inge K",
+                            BlogPostId = 7
+                        },
+                        new
+                        {
+                            BlogPostCommentId = 12,
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9595),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9588),
+                            BlogPostCommentText = "En rigtig god lille DIY gave til alle, og desuden også flot bordpynt eller bordkort til konfirmationer.",
+                            BlogPostCommentUser = "Karen S",
+                            BlogPostId = 7
+                        },
+                        new
+                        {
+                            BlogPostCommentId = 13,
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9635),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9629),
+                            BlogPostCommentText = "Hyggelig tidsfordriv. Min mand tværtimod synes vi har nok dekoretet sten i huset :-D",
+                            BlogPostCommentUser = "Lene G",
+                            BlogPostId = 7
+                        },
+                        new
+                        {
+                            BlogPostCommentId = 14,
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9675),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 21, 15, 44, 6, 269, DateTimeKind.Local).AddTicks(9669),
+                            BlogPostCommentText = "Jeg elsker at bruge tid på at finde sten og male på dem.",
+                            BlogPostCommentUser = "Trine D",
+                            BlogPostId = 7
                         });
                 });
 
@@ -171,7 +288,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 1,
                             BlogPostId = 1,
                             ImgAltText = "Før viskelædere blev brugt",
-                            ImgFileUrl = "~/img/BlogBilleder/viskelædertest1.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/viskelædertest1.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -179,7 +296,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 2,
                             BlogPostId = 1,
                             ImgAltText = "Efter steadler mars",
-                            ImgFileUrl = "~/img/BlogBilleder/viskelædertest2.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/viskelædertest2.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -187,7 +304,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 3,
                             BlogPostId = 1,
                             ImgAltText = "Efter steadler mars og Grene",
-                            ImgFileUrl = "~/img/BlogBilleder/viskelædertest3.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/viskelædertest3.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -195,7 +312,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 4,
                             BlogPostId = 1,
                             ImgAltText = "Alle viskelædre brugt",
-                            ImgFileUrl = "~/img/BlogBilleder/viskelædertest4.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/viskelædertest4.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -203,7 +320,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 5,
                             BlogPostId = 2,
                             ImgAltText = "Linje tykkelser og flade eksempler med de tre marker typer",
-                            ImgFileUrl = "~/img/BlogBilleder/markertest.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/markertest.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -211,7 +328,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 6,
                             BlogPostId = 3,
                             ImgAltText = "Break Away Heart by Marlene Rye",
-                            ImgFileUrl = "~/img/BlogBilleder/Marlene-Rye_Break-Away-Heart",
+                            ImgFileUrl = "../img/BlogBilleder/Marlene-Rye_Break-Away-Heart.jpg",
                             ImgType = "Coverbillede"
                         },
                         new
@@ -219,7 +336,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 7,
                             BlogPostId = 3,
                             ImgAltText = "Fan eksemple på soft pastel brug",
-                            ImgFileUrl = "~/img/BlogBilleder/krinstikeks.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/krinstikeks.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -227,7 +344,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 8,
                             BlogPostId = 3,
                             ImgAltText = "Soft pastel marterialer",
-                            ImgFileUrl = "~/img/BlogBilleder/softpastelmaterials.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/softpastelmaterials.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -235,7 +352,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 9,
                             BlogPostId = 4,
                             ImgAltText = "RisoChan Gouache Materialer",
-                            ImgFileUrl = "~/img/BlogBilleder/RisoChan-GouacheMaterialer,jpg",
+                            ImgFileUrl = "../img/BlogBilleder/RisoChan-GouacheMaterialer.jpg",
                             ImgType = "Coverbillede"
                         },
                         new
@@ -243,7 +360,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 10,
                             BlogPostId = 4,
                             ImgAltText = "Riso Chans Gouache maleri",
-                            ImgFileUrl = "~/img/BlogBilleder/risochan-web.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/risochan-web.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -251,7 +368,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 11,
                             BlogPostId = 4,
                             ImgAltText = "Gouache marterialer",
-                            ImgFileUrl = "~/img/BlogBilleder/Gouachematerials.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/Gouachematerials.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -259,7 +376,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 12,
                             BlogPostId = 5,
                             ImgAltText = "pourpainting trin 1",
-                            ImgFileUrl = "~/img/BlogBilleder/pourpainting-1.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/pourpainting-1.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -267,7 +384,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 13,
                             BlogPostId = 5,
                             ImgAltText = "pourpainting trin 2",
-                            ImgFileUrl = "~/img/BlogBilleder/pourpainting-2.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/pourpainting-2.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -275,7 +392,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 14,
                             BlogPostId = 5,
                             ImgAltText = "pourpainting trin 3",
-                            ImgFileUrl = "~/img/BlogBilleder/pourpainting-3.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/pourpainting-3.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -283,7 +400,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 15,
                             BlogPostId = 5,
                             ImgAltText = "pourpainting trin 4",
-                            ImgFileUrl = "~/img/BlogBilleder/pourpainting-4.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/pourpainting-4.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -291,7 +408,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 16,
                             BlogPostId = 5,
                             ImgAltText = "pourpainting trin 5",
-                            ImgFileUrl = "~/img/BlogBilleder/pourpainting-5.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/pourpainting-5.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -299,7 +416,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 17,
                             BlogPostId = 5,
                             ImgAltText = "pourpainting trin 6",
-                            ImgFileUrl = "~/img/BlogBilleder/pourpainting-6.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/pourpainting-6.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -307,7 +424,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 18,
                             BlogPostId = 5,
                             ImgAltText = "pourpainting trin 7",
-                            ImgFileUrl = "~/img/BlogBilleder/pourpainting-7.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/pourpainting-7.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -315,7 +432,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 19,
                             BlogPostId = 5,
                             ImgAltText = "pourpainting trin 8",
-                            ImgFileUrl = "~/img/BlogBilleder/pourpainting-8.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/pourpainting-8.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -323,7 +440,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 20,
                             BlogPostId = 5,
                             ImgAltText = "pourpainting trin 9",
-                            ImgFileUrl = "~/img/BlogBilleder/pourpainting-9.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/pourpainting-9.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -331,7 +448,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 21,
                             BlogPostId = 5,
                             ImgAltText = "pourpainting trin 10",
-                            ImgFileUrl = "~/img/BlogBilleder/pourpainting-10.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/pourpainting-10.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -339,7 +456,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 22,
                             BlogPostId = 5,
                             ImgAltText = "pourpainting trin 11",
-                            ImgFileUrl = "~/img/BlogBilleder/pourpainting-11.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/pourpainting-11.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -347,7 +464,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 23,
                             BlogPostId = 5,
                             ImgAltText = "pourpainting trin 12",
-                            ImgFileUrl = "~/img/BlogBilleder/pourpainting-12.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/pourpainting-12.jpg",
                             ImgType = "Coverbillede"
                         },
                         new
@@ -355,7 +472,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 24,
                             BlogPostId = 6,
                             ImgAltText = "clipart-1",
-                            ImgFileUrl = "~/img/BlogBilleder/clipart-1.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/clipart-1.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -363,7 +480,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 25,
                             BlogPostId = 6,
                             ImgAltText = "clipart-2",
-                            ImgFileUrl = "~/img/BlogBilleder/clipart-2.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/clipart-2.jpg",
                             ImgType = "Coverbillede"
                         },
                         new
@@ -371,7 +488,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 26,
                             BlogPostId = 6,
                             ImgAltText = "clipart-3",
-                            ImgFileUrl = "~/img/BlogBilleder/clipart-3.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/clipart-3.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -379,7 +496,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 27,
                             BlogPostId = 7,
                             ImgAltText = "Posca på sten",
-                            ImgFileUrl = "~/img/BlogBilleder/drawingsstone.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/drawingsstone.jpg",
                             ImgType = "Coverbillede"
                         },
                         new
@@ -387,7 +504,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 28,
                             BlogPostId = 7,
                             ImgAltText = "Posca på sten",
-                            ImgFileUrl = "~/img/BlogBilleder/monstersten_1.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/monstersten_1.jpg",
                             ImgType = "blogbillede"
                         },
                         new
@@ -395,7 +512,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 29,
                             BlogPostId = 8,
                             ImgAltText = "Bullet journal",
-                            ImgFileUrl = "~/img/BlogBilleder/bulletjournal1.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/bulletjournal1.jpg",
                             ImgType = "Coverbillede"
                         },
                         new
@@ -403,7 +520,7 @@ namespace kreaTid.Migrations
                             BlogPostImgId = 30,
                             BlogPostId = 8,
                             ImgAltText = "Bullet journal",
-                            ImgFileUrl = "~/img/BlogBilleder/bulletjournal2.jpg",
+                            ImgFileUrl = "../img/BlogBilleder/bulletjournal2.jpg",
                             ImgType = "blogbillede"
                         });
                 });
@@ -713,11 +830,92 @@ namespace kreaTid.Migrations
                         new
                         {
                             ProductCommentId = 1,
-                            ProductCommentDate = new DateTime(2020, 5, 20, 10, 38, 6, 92, DateTimeKind.Local).AddTicks(904),
-                            ProductCommentLastUpdated = new DateTime(2020, 5, 20, 10, 38, 6, 99, DateTimeKind.Local).AddTicks(8954),
-                            ProductCommentText = "",
-                            ProductCommentUser = "",
+                            ProductCommentDate = new DateTime(2020, 5, 21, 15, 44, 6, 264, DateTimeKind.Local).AddTicks(3977),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(4954),
+                            ProductCommentText = "Jeg har altid i den i mine tegneredskaber, den er uundværlig i min hverdag, kan klart anbefales. ",
+                            ProductCommentUser = "Karen J",
                             ProductId = 1
+                        },
+                        new
+                        {
+                            ProductCommentId = 2,
+                            ProductCommentDate = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(6794),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(6860),
+                            ProductCommentText = "God viskelæder.",
+                            ProductCommentUser = "Marie L M",
+                            ProductId = 1
+                        },
+                        new
+                        {
+                            ProductCommentId = 3,
+                            ProductCommentDate = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(6933),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(6940),
+                            ProductCommentText = "Virkelig lækre farver og afgiver farverne flot på papiret. Bred udvalg af farver.",
+                            ProductCommentUser = "Cille P",
+                            ProductId = 7
+                        },
+                        new
+                        {
+                            ProductCommentId = 4,
+                            ProductCommentDate = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(6977),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(6984),
+                            ProductCommentText = "Jeg bruger sættet til alle min kunstnværker og er glad for de forskellige nuancer der findes. Det eneste problem er at de brugt hurtigt ;-)",
+                            ProductCommentUser = "Gitte Ly",
+                            ProductId = 7
+                        },
+                        new
+                        {
+                            ProductCommentId = 5,
+                            ProductCommentDate = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(7020),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(7027),
+                            ProductCommentText = "Fin produkt.",
+                            ProductCommentUser = "Lars Kjeld",
+                            ProductId = 7
+                        },
+                        new
+                        {
+                            ProductCommentId = 6,
+                            ProductCommentDate = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(7067),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(7073),
+                            ProductCommentText = "Er glad for min sæt dog synes jeg det er lige til den dyre side.",
+                            ProductCommentUser = "Ann L",
+                            ProductId = 7
+                        },
+                        new
+                        {
+                            ProductCommentId = 7,
+                            ProductCommentDate = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(7108),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(7114),
+                            ProductCommentText = "Gode til at tegne nogle linjer skarp op, kan anbefales.",
+                            ProductCommentUser = "Frederikke J",
+                            ProductId = 10
+                        },
+                        new
+                        {
+                            ProductCommentId = 8,
+                            ProductCommentDate = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(7149),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(7155),
+                            ProductCommentText = "Jeg elsker elsker disse tucher og jeg sparer op til flere af dem",
+                            ProductCommentUser = "Amailie G",
+                            ProductId = 22
+                        },
+                        new
+                        {
+                            ProductCommentId = 9,
+                            ProductCommentDate = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(7190),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(7196),
+                            ProductCommentText = "Kvalitets tucher der er gode til mange ting.",
+                            ProductCommentUser = "Helena M",
+                            ProductId = 22
+                        },
+                        new
+                        {
+                            ProductCommentId = 10,
+                            ProductCommentDate = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(7233),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 21, 15, 44, 6, 268, DateTimeKind.Local).AddTicks(7239),
+                            ProductCommentText = " Gode tuscher jeg bruger dem til kreative ting med mine børnebørn",
+                            ProductCommentUser = "Jytte E",
+                            ProductId = 22
                         });
                 });
 
@@ -756,7 +954,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 1,
                             ProductImgAltText = "GRENEviskelæder",
-                            ProductImgFileUrl = "~/img/varer/GRENEviskelæder.jifi",
+                            ProductImgFileUrl = "../img/varer/GRENEviskelæder.PNG",
                             ProductImgType = "productImg"
                         },
                         new
@@ -764,8 +962,8 @@ namespace kreaTid.Migrations
                             ProductImgId = 2,
                             BlogPostId = 0,
                             ProductId = 2,
-                            ProductImgAltText = "test",
-                            ProductImgFileUrl = "~/img/varer/steadtler-mars-plastic.jifi",
+                            ProductImgAltText = "steadtler-mars-plastic",
+                            ProductImgFileUrl = "../img/varer/steadtler-mars-plastic.PNG",
                             ProductImgType = "productImg"
                         },
                         new
@@ -783,7 +981,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 4,
                             ProductImgAltText = "Design Twin Markers",
-                            ProductImgFileUrl = "~/img/varer/design-twin-marker-pastel-SingleView.jpg",
+                            ProductImgFileUrl = "../img/varer/design-twin-marker-pastel-SingleView.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -792,7 +990,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 4,
                             ProductImgAltText = "Design Twin Markers",
-                            ProductImgFileUrl = "~/img/varer/DesignTwinMarkerSideView.PNG",
+                            ProductImgFileUrl = "../img/varer/DesignTwinMarkerSideView.PNG",
                             ProductImgType = "productImg"
                         },
                         new
@@ -801,7 +999,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 4,
                             ProductImgAltText = "Design Twin Markers",
-                            ProductImgFileUrl = "~/img/varer/DesignTwinMarker.PNG",
+                            ProductImgFileUrl = "../img/varer/DesignTwinMarker.PNG",
                             ProductImgType = "productImg"
                         },
                         new
@@ -810,7 +1008,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 6,
                             ProductImgAltText = "Copic Ciao",
-                            ProductImgFileUrl = "~/img/varer/copic_ciao_styckvis.jpg",
+                            ProductImgFileUrl = "../img/varer/copic_ciao_styckvis.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -828,7 +1026,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 5,
                             ProductImgAltText = "Touch Twin Marker, enkel",
-                            ProductImgFileUrl = "~/img/varer/touchtwinmarker_singleview.png",
+                            ProductImgFileUrl = "../img/varer/touchtwinmarker_singleview.png",
                             ProductImgType = "productImg"
                         },
                         new
@@ -837,7 +1035,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 5,
                             ProductImgAltText = "Touch Twin Marker, 12 stk sæt",
-                            ProductImgFileUrl = "~/img/varer/TouchTwinMarker12stk.jpg",
+                            ProductImgFileUrl = "../img/varer/TouchTwinMarker12stk.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -845,8 +1043,8 @@ namespace kreaTid.Migrations
                             ProductImgId = 11,
                             BlogPostId = 0,
                             ProductId = 7,
-                            ProductImgAltText = "test",
-                            ProductImgFileUrl = "~/img/varer/Rembrandt-Soft-Pastel-Half-Stick-10-Set_250x.jpg",
+                            ProductImgAltText = "Soft pastel",
+                            ProductImgFileUrl = "../img/varer/Rembrandt-Soft-Pastel-Half-Stick-10-Set_250x.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -854,8 +1052,8 @@ namespace kreaTid.Migrations
                             ProductImgId = 12,
                             BlogPostId = 0,
                             ProductId = 8,
-                            ProductImgAltText = "test",
-                            ProductImgFileUrl = "~/img/varer/Bruynzeel-design-pastel-pencil.jpg",
+                            ProductImgAltText = "soft pastel blyanter",
+                            ProductImgFileUrl = "../img/varer/Bruynzeel-design-pastel-pencil.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -864,7 +1062,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 9,
                             ProductImgAltText = "Canson Mi Teintes Touch",
-                            ProductImgFileUrl = "~/img/varer/canson_mi_teintes_touch",
+                            ProductImgFileUrl = "../img/varer/canson_mi_teintes_touch",
                             ProductImgType = "productImg"
                         },
                         new
@@ -873,7 +1071,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 10,
                             ProductImgAltText = "Daler Rowney Gouache Opaque Watercolour Paint",
-                            ProductImgFileUrl = "~/img/varer/Daler-Rowney-Gouache-Opaque-Watercolour-Paints.jpg",
+                            ProductImgFileUrl = "../img/varer/Daler-Rowney-Gouache-Opaque-Watercolour-Paints.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -882,7 +1080,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 11,
                             ProductImgAltText = "Lyra-Robinson-3B-Pencil",
-                            ProductImgFileUrl = "~/img/varer/Lyra-Robinson-3B-Pencil_250x.jpg",
+                            ProductImgFileUrl = "../img/varer/Lyra-Robinson-3B-Pencil_250x.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -891,7 +1089,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 12,
                             ProductImgAltText = "RoyalTalens-VanGogh-191-Series-No6-Brush",
-                            ProductImgFileUrl = "~/img/varer/RoyalTalens-VanGogh-191-Series-No6-Brush_250x.jpg",
+                            ProductImgFileUrl = "../img/varer/RoyalTalens-VanGogh-191-Series-No6-Brush_250x.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -900,7 +1098,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 13,
                             ProductImgAltText = "KUM natural viskelæder",
-                            ProductImgFileUrl = "~/img/varer/KUM-natural-eraser_250x.jpg",
+                            ProductImgFileUrl = "../img/varer/KUM-natural-eraser_250x.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -909,7 +1107,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 14,
                             ProductImgAltText = "Bockingford Block",
-                            ProductImgFileUrl = "~/img/varer/BockingfordBlock.jpg",
+                            ProductImgFileUrl = "../img/varer/BockingfordBlock.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -918,7 +1116,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 15,
                             ProductImgAltText = "30x30 cm lærred",
-                            ProductImgFileUrl = "~/img/varer/Lærred.jpg",
+                            ProductImgFileUrl = "../img/varer/Lærred.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -927,7 +1125,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 16,
                             ProductImgAltText = "Pouring Fluid",
-                            ProductImgFileUrl = "~/img/varer/Pouring-Fluid.jpg",
+                            ProductImgFileUrl = "../img/varer/Pouring-Fluid.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -936,7 +1134,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 17,
                             ProductImgAltText = "hobby maling sort",
-                            ProductImgFileUrl = "~/img/varer/hobby-maling-sort.jpg",
+                            ProductImgFileUrl = "../img/varer/hobby-maling-sort.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -945,7 +1143,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 18,
                             ProductImgAltText = "Ispinde",
-                            ProductImgFileUrl = "~/img/varer/ispinde.jpg",
+                            ProductImgFileUrl = "../img/varer/ispinde.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -954,7 +1152,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 19,
                             ProductImgAltText = "Karton",
-                            ProductImgFileUrl = "~/img/varer/karton-lysblå.jpg",
+                            ProductImgFileUrl = "../img/varer/karton-lysblå.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -963,7 +1161,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 20,
                             ProductImgAltText = "Lim",
-                            ProductImgFileUrl = "~/img/varer/lim.jpg",
+                            ProductImgFileUrl = "../img/varer/lim.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -972,7 +1170,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 21,
                             ProductImgAltText = "Saks",
-                            ProductImgFileUrl = "~/img/varer/saks.jpg",
+                            ProductImgFileUrl = "../img/varer/saks.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -981,7 +1179,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 22,
                             ProductImgAltText = "posca",
-                            ProductImgFileUrl = "~/img/varer/posca2.5mm.jpg",
+                            ProductImgFileUrl = "../img/varer/posca2.5mm.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -990,7 +1188,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 22,
                             ProductImgAltText = "Posca sæt 10stk",
-                            ProductImgFileUrl = "~/img/varer/POSCAset.jpg",
+                            ProductImgFileUrl = "../img/varer/POSCAset.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -999,7 +1197,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 22,
                             ProductImgAltText = "Sten tegnet med POSCA",
-                            ProductImgFileUrl = "~/img/varer/monstersten_1.jpg",
+                            ProductImgFileUrl = "../img/varer/monstersten_1.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -1008,7 +1206,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 23,
                             ProductImgAltText = "Leuchturm1917 Dotted",
-                            ProductImgFileUrl = "~/img/varer/notebogA5.jpg",
+                            ProductImgFileUrl = "../img/varer/notebogA5.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -1017,7 +1215,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 24,
                             ProductImgAltText = "Hand Lettering 1000 exercises",
-                            ProductImgFileUrl = "~/img/varer/Hand Lettering1000exercises.jpg",
+                            ProductImgFileUrl = "../img/varer/Hand Lettering1000exercises.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -1026,7 +1224,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 25,
                             ProductImgAltText = "handlettering exercises paper",
-                            ProductImgFileUrl = "~/img/varer/handletteringexercisespaper.jpg",
+                            ProductImgFileUrl = "../img/varer/handletteringexercisespaper.jpg",
                             ProductImgType = "productImg"
                         },
                         new
@@ -1035,7 +1233,7 @@ namespace kreaTid.Migrations
                             BlogPostId = 0,
                             ProductId = 26,
                             ProductImgAltText = "fine liners",
-                            ProductImgFileUrl = "~/img/varer/fineliner.jpg",
+                            ProductImgFileUrl = "../img/varer/fineliner.jpg",
                             ProductImgType = "productImg"
                         });
                 });

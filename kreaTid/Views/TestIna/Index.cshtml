@@ -1,0 +1,87 @@
+﻿
+@using kreaTid.Models;
+@*using kreaTid.Infrastructure;*@
+@*model kreaTid.Models.ViewModels.ProductShopViewModel*@
+
+@model IEnumerable<kreaTid.Models.Product>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ProductName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ProductPrice)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ProductDescription)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category)
+                </th>
+                <th>
+                    <b>Comments</b> 
+                </th>
+                <th>
+                    <b>Images</b>
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                </td>
+                <td>
+                    <div>
+                        @foreach (ProductComment pc in item.ProductComments)
+                        {
+                            <p>@await Html.PartialAsync("_ProductComment", pc)</p>
+                        }
+
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        @foreach (ProductImg pc in item.ProductImgs)
+                        {
+                            <p>@await Html.PartialAsync("_ProductImg", pc)</p>
+                        }
+
+                    </div>
+                </td>
+            </tr>
+            }
+        </tbody>
+
+
+    </table>
+
+
+</body>
+</html>
