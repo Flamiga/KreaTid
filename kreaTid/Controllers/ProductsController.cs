@@ -19,12 +19,19 @@ namespace kreaTid.Controllers
             _context = context;
         }
 
-        // GET: Products
+        // GET: Products - test
         public async Task<IActionResult> Index()
         {
-            var kreaTidContext = _context.Product.Include(p => p.Category);
+            var kreaTidContext = _context.Product.Include(p => p.Category).Include(p => p.ProductImgs);
             return View(await kreaTidContext.ToListAsync());
         }
+
+        //// GET: Products
+        //public async Task<IActionResult> Index()
+        //{
+        //    var kreaTidContext = _context.Product.Include(p => p.Category);
+        //    return View(await kreaTidContext.ToListAsync());
+        //}
 
         // GET: Products/Details/5
         public async Task<IActionResult> Details(int? id)

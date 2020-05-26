@@ -43,57 +43,57 @@ namespace kreaTid.Migrations
                         new
                         {
                             BlogPostId = 1,
-                            BlogPostContent = "<p>Viskelæderet, et af tegnerens vigtige redskaber. Men er viskelæder ikke bare et viskelæder? Hvis du tænker det er så nemt må vi desværre skuffe dig. Jo hvis du bare skal viske noget ud hurtigt, kan et almindeligt viskelæder godt bruges. Men når du arbejder på et projekt og du lige skal rette noget ville det så ikke være ærgerligt hvis blyanten blot blev tværet ud eller den lineart (linjerne i tegning ofte tegnet op med en form for blæk pen) du har brugt timer på delvist forsvinder eller bliver ødelagt når du visker skitsen under ud? Vi synes det er ærgerligt at gå på kompromi så vi har kigget på et udvalg af viskelædere og sammenlignet dem for at hjælpe dig med at vælge lige den der passer til dit behov. </p><p> Den første er det klassiske Staedler mars plastic viskelæder. Som det kan ses på billedeter det godt til blyant tager lidt blæk med og ødelægger lidt farveblyanten. </p><p> Det næste er et billigt GRENE viskelæder. Denne klare sig ikke helt lige så godt som Steadler Mars. </p><p> Den sidste er Faber - Castell ‘Dust - free’. Dette er ikke helt støvfri men producerer en del mindre støv end de andre viskelædere.</p><p>Alt i alt Er Faber - Catell godt hvis man er træt af støv, GRENE godt hvis man bare vil have en billigt løsning og Steadler godt hvis man ikke har noget imod at skulle fjerne støvet.Du kan selv prøve dem af hvis du vil se det med dine egne øjne.</p>",
-                            BlogPostDate = new DateTime(2020, 5, 22, 11, 27, 33, 746, DateTimeKind.Local).AddTicks(6268),
+                            BlogPostContent = "Viskelæderet, et af tegnerens vigtige redskaber. Men er viskelæder ikke bare et viskelæder? Hvis du tænker det er så nemt må vi desværre skuffe dig. Jo hvis du bare skal viske noget ud hurtigt, kan et almindeligt viskelæder godt bruges. Men når du arbejder på et projekt og du lige skal rette noget ville det så ikke være ærgerligt hvis blyanten blot blev tværet ud eller den lineart (linjerne i tegning ofte tegnet op med en form for blæk pen) du har brugt timer på delvist forsvinder eller bliver ødelagt når du visker skitsen under ud? Vi synes det er ærgerligt at gå på kompromi så vi har kigget på et udvalg af viskelædere og sammenlignet dem for at hjælpe dig med at vælge lige den der passer til dit behov. Den første er det klassiske Staedler mars plastic viskelæder. Som det kan ses på billedeter det godt til blyant tager lidt blæk med og ødelægger lidt farveblyanten. Det næste er et billigt GRENE viskelæder. Denne klare sig ikke helt lige så godt som Steadler Mars. Den sidste er Faber - Castell ‘Dust - free’. Dette er ikke helt støvfri men producerer en del mindre støv end de andre viskelædere. Alt i alt Er Faber - Catell godt hvis man er træt af støv, GRENE godt hvis man bare vil have en billigt løsning og Steadler godt hvis man ikke har noget imod at skulle fjerne støvet.Du kan selv prøve dem af hvis du vil se det med dine egne øjne.",
+                            BlogPostDate = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(7813),
                             BlogPostTitle = "Bedste viskelæder til dit behov"
                         },
                         new
                         {
                             BlogPostId = 2,
-                            BlogPostContent = "<p>Der findes mange forskellige mærker af markers og det kan være svært at vide hvad der er bedst. Så her sammenligner vi 3 mærker af markers og giver vores anbefalinger til dig om hvad de er gode til.</p><p>Den første er Design Twin Markers.En af de billigere muligheder derude.De har et godt udvalg af farver.De har en spids i hver ende.En bullet tip i den ene til mere præcis.En chisel tip i den anden ende til større områder.Kvaliteten er god.</ p >< p >Den næste vi har kigget på er er Touch Twin Markers.Har et godt farveudvalg.Ligesom Design Twin Markers har de to spiser.Den ene værende den brede chisel tip og den anden værende en Brush tip.Brush tip er mere fleksible og giver større variation i de linjer man kan lave med dem.De gør det nemt at lave fine detaljer og farvelægge lidt større områder nemt og hurtigt.De har god blæk der en god enshed.</ p >< p >Sidst kiggede vi på Copic.Et af de mest kendte mærker, men også en af de dyreste.Det er et mærke ofte brugt af professionelle.Copic fås i forskellige slags Original, Sketch og Ciao.Vi har valgt at fokusere på Ciao den billigste version som er god hvis man har lyst at prøve copic uden at skal tømme lommerne helt.De har dog også mindre blæk i sig.Copic Ciao har også chisel og brush tips.God kvalitet blæk med jævn fordeling.</ p >< p > Design Twin Markers er gode som er billigere mulighed hvis ikke Brush tip er noget man er interesseret i.Touch Twin Markers er lidt dyrerer, men en godt bud hvis du gerne vil prøve at arbejde med brush markers uden at skulle investerer helt vildt stort.Sidst Copic Ciao godt til at prøve Copic og begynde i det mere professionelle, men hvis du allerede ved du vil komme til at bruge dem meget  kan den hurtigt blive en fordel at vælge Sketch versionen da disse kan genopfyldes.</ p >< p > Nu kan de vælge bedre efter behov eller teste dem alle og se hvad der passer dig bedst.</p>",
-                            BlogPostDate = new DateTime(2020, 5, 22, 11, 27, 33, 746, DateTimeKind.Local).AddTicks(7378),
+                            BlogPostContent = "Der findes mange forskellige mærker af markers og det kan være svært at vide hvad der er bedst. Så her sammenligner vi 3 mærker af markers og giver vores anbefalinger til dig om hvad de er gode til. Den første er Design Twin Markers.En af de billigere muligheder derude.De har et godt udvalg af farver.De har en spids i hver ende.En bullet tip i den ene til mere præcis.En chisel tip i den anden ende til større områder.Kvaliteten er god. Den næste vi har kigget på er er Touch Twin Markers.Har et godt farveudvalg.Ligesom Design Twin Markers har de to spiser.Den ene værende den brede chisel tip og den anden værende en Brush tip.Brush tip er mere fleksible og giver større variation i de linjer man kan lave med dem.De gør det nemt at lave fine detaljer og farvelægge lidt større områder nemt og hurtigt.De har god blæk der en god enshed. Sidst kiggede vi på Copic.Et af de mest kendte mærker, men også en af de dyreste.Det er et mærke ofte brugt af professionelle.Copic fås i forskellige slags Original, Sketch og Ciao.Vi har valgt at fokusere på Ciao den billigste version som er god hvis man har lyst at prøve copic uden at skal tømme lommerne helt.De har dog også mindre blæk i sig.Copic Ciao har også chisel og brush tips.God kvalitet blæk med jævn fordeling. Design Twin Markers er gode som er billigere mulighed hvis ikke Brush tip er noget man er interesseret i. Touch Twin Markers er lidt dyrerer, men en godt bud hvis du gerne vil prøve at arbejde med brush markers uden at skulle investerer helt vildt stort.Sidst Copic Ciao godt til at prøve Copic og begynde i det mere professionelle, men hvis du allerede ved du vil komme til at bruge dem meget  kan den hurtigt blive en fordel at vælge Sketch versionen da disse kan genopfyldes. Nu kan de vælge bedre efter behov eller teste dem alle og se hvad der passer dig bedst.",
+                            BlogPostDate = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(8394),
                             BlogPostTitle = "Hvilken marker er bedst til dig"
                         },
                         new
                         {
                             BlogPostId = 3,
-                            BlogPostContent = "<p>Man må omfavne rod og kaos, når man arbejder med soft pastel. Kunstner Marlene Rye har vist os har hvad man kan opnå med de støvende farver.Med brug af soft pastel, pastelblyanter og pastel venlige Canson Mi - Teintes Touch Papir har hun skabt et smukt landskab. </p><p>Tegn med pastel på papiret de store figure og farve felter fra dit motiv.Gem de fine detaljer til senere.Du vil sandsynligvis kunne se noget af papiret igennem farverne.Detaljer kan være svære at opnå med soft pastel så fortvivl ikke hvis det ikke ligner helt!</p><p>Når farverne er på plads kan du bruge en finger til at blande farverne.Du kan også bruge et stykke køkkenrulle for at få mindre på fingerne.Nu skulle du have skabt en mere solid farve med mindre papir synligt.Mangler der farve nogle steder ? Tilføj mere og bland eller blend med fingre eller papir igen.</p><p>Så det tid til detaljer! Brug kanterne af soft pastel stykkerne og eller supplimenter med pastelblyanterne og tegn detaljerne ind.Blend ikke her for at behold de skarpeste detaljer. Gennemgå til du er tilfreds eller mere farve ikke vil hænge ved papiret og prøv et nyt motiv eller det samme igen og se om det er nemmere denne gang.Måske du opdager din helt egen måde og rækkefølge at bruge materialerne i.Skitse med blyanter først evt. for nemmere at fylde farverne ind eller brug udelukkende soft pastel stykker i stor bløde strøg.Der er mange måder at gøre det på.</p><p>Marlene Rye har udvalgt farverne og materialerne hun selv har brugt i billedet.Prøv dem selv af og få inspiration fra de ørken inspirerede farver og hendes fantastiske eksempel på brugen af dem.</p><h3>Om Kunstneren:</h3><p>Marlene Rye har en A.B.fra Smith College og en M.F.A.fra University of Pennsylvania.Hun har studeret under Andrew Forge, Barbara Grossman, John Moore og Martha Armstrong.Hendes arbejde er blevet vist nationalt og er blevet accepteret til bedømte shows med højtstående konservatorer fra Whitney Museum of American Art og Guggenheim.Hun har haft 20 solo - shows siden 1994.</ p >< p >Instagram: @marlenerye_art <br>Facebook: Marlene Rye Art <br>Website: <a href='www.MarleneRye.com' terget='_blank' > www.MarleneRye.com </a></p>",
-                            BlogPostDate = new DateTime(2020, 5, 22, 11, 27, 33, 746, DateTimeKind.Local).AddTicks(7427),
+                            BlogPostContent = "Man må omfavne rod og kaos, når man arbejder med soft pastel. Kunstner Marlene Rye har vist os har hvad man kan opnå med de støvende farver.Med brug af soft pastel, pastelblyanter og pastel venlige Canson Mi - Teintes Touch Papir har hun skabt et smukt landskab. Tegn med pastel på papiret de store figure og farve felter fra dit motiv.Gem de fine detaljer til senere.Du vil sandsynligvis kunne se noget af papiret igennem farverne.Detaljer kan være svære at opnå med soft pastel så fortvivl ikke hvis det ikke ligner helt! Når farverne er på plads kan du bruge en finger til at blande farverne.Du kan også bruge et stykke køkkenrulle for at få mindre på fingerne.Nu skulle du have skabt en mere solid farve med mindre papir synligt.Mangler der farve nogle steder ? Tilføj mere og bland eller blend med fingre eller papir igen. Så det tid til detaljer! Brug kanterne af soft pastel stykkerne og eller supplimenter med pastelblyanterne og tegn detaljerne ind.Blend ikke her for at behold de skarpeste detaljer. Gennemgå til du er tilfreds eller mere farve ikke vil hænge ved papiret og prøv et nyt motiv eller det samme igen og se om det er nemmere denne gang.Måske du opdager din helt egen måde og rækkefølge at bruge materialerne i.Skitse med blyanter først evt. for nemmere at fylde farverne ind eller brug udelukkende soft pastel stykker i stor bløde strøg.Der er mange måder at gøre det på. Marlene Rye har udvalgt farverne og materialerne hun selv har brugt i billedet.Prøv dem selv af og få inspiration fra de ørken inspirerede farver og hendes fantastiske eksempel på brugen af dem.Om Kunstneren: Marlene Rye har en A.B.fra Smith College og en M.F.A.fra University of Pennsylvania.Hun har studeret under Andrew Forge, Barbara Grossman, John Moore og Martha Armstrong.Hendes arbejde er blevet vist nationalt og er blevet accepteret til bedømte shows med højtstående konservatorer fra Whitney Museum of American Art og Guggenheim. Hun har haft 20 solo - shows siden 1994.Instagram: @marlenerye_art  Facebook: Marlene Rye Art  Website: www.MarleneRye.com",
+                            BlogPostDate = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(8417),
                             BlogPostTitle = "Prøv soft pastel"
                         },
                         new
                         {
                             BlogPostId = 4,
-                            BlogPostContent = "<p>Oplev kompleksiteten af menneskets følelser med kunstneren Riso Chan når du bruger disse omhyggeligt udvalgte farve palette af Daler Rowney Aquafine Gouache.</p><p>Riso Chan demonstrarer hvordan hun bruger disse nemt og simplet.</p><p>Skitser et motiv på et stykke papir med nogen vægt.f.eks.Bockingford CP Watercolour Paper(220gsm).Mal derefter med penslen.Gouachen er vandbaseret så du kan fortynde det med vand og få endnu mere ud af farverne.</p><p>Start evt.ud med et tyndere vand for tyndt lag i de lys områder.Det første lag behøver ikke være perfekt da gouache ikke er gennemsigtig og du kan lægge et lag farve oven på.Husk dog at jo mere vand det er blandet med jo mere gennemsigtig vil det være.</p><p>Fortsæt med at bygge lagene op med mere eller mindre vand i gouachen eller måske bare helt direkte fra tuben.</p><p>Riso Chan har udarbejdet et eksempel på en et emotionelt ansigt med disse materialer.Prøv selv kræfter med dem.Male et ansigt med følelserne vist i både farver og udseende.Tag inspiration fra Riso Chans billede og udforsk følelser.Hvem vil du male og hvad føler de!</p><p><h3>Om Kunstneren:</h3><p>Riso Chan er en kunstner og kreativ lærer med base i Amsterdam.Hun voksede op i et kunstnerisk miljø, hvor hendes mor var billedhugger, der inspirerede hende til at udforske sin egen kreativitet fra en tidlig alder.Hun mener, at portrætter kan være en meget kraftig måde at udtrykke følelser og menneskelig skønhed på.Det er et sprog på egen hånd, der ikke bruger ord til at kommunikere, det er derfor, det meste af hendes arbejde drejer sig om portrætter.Riso arbejder hovedsageligt med akvarel og gouache, skønt hun også sommetider eksperimenterer med digitalt maleri.</p><p>Instagram - @risochan</p>",
-                            BlogPostDate = new DateTime(2020, 5, 22, 11, 27, 33, 746, DateTimeKind.Local).AddTicks(7445),
+                            BlogPostContent = "Oplev kompleksiteten af menneskets følelser med kunstneren Riso Chan når du bruger disse omhyggeligt udvalgte farve palette af Daler Rowney Aquafine Gouache. Riso Chan demonstrarer hvordan hun bruger disse nemt og simplet. Skitser et motiv på et stykke papir med nogen vægt.f.eks.Bockingford CP Watercolour Paper(220gsm).Mal derefter med penslen.Gouachen er vandbaseret så du kan fortynde det med vand og få endnu mere ud af farverne. Start evt.ud med et tyndere vand for tyndt lag i de lys områder. Det første lag behøver ikke være perfekt da gouache ikke er gennemsigtig og du kan lægge et lag farve oven på.Husk dog at jo mere vand det er blandet med jo mere gennemsigtig vil det være. Fortsæt med at bygge lagene op med mere eller mindre vand i gouachen eller måske bare helt direkte fra tuben. Riso Chan har udarbejdet et eksempel på en et emotionelt ansigt med disse materialer.Prøv selv kræfter med dem. Male et ansigt med følelserne vist i både farver og udseende.Tag inspiration fra Riso Chans billede og udforsk følelser.Hvem vil du male og hvad føler de! Om Kunstneren: Riso Chan er en kunstner og kreativ lærer med base i Amsterdam. Hun voksede op i et kunstnerisk miljø, hvor hendes mor var billedhugger, der inspirerede hende til at udforske sin egen kreativitet fra en tidlig alder.Hun mener, at portrætter kan være en meget kraftig måde at udtrykke følelser og menneskelig skønhed på.Det er et sprog på egen hånd, der ikke bruger ord til at kommunikere, det er derfor, det meste af hendes arbejde drejer sig om portrætter. Riso arbejder hovedsageligt med akvarel og gouache, skønt hun også sommetider eksperimenterer med digitalt maleri.</p><p>Instagram - @risochan",
+                            BlogPostDate = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(8476),
                             BlogPostTitle = "Ny med gouache"
                         },
                         new
                         {
                             BlogPostId = 5,
-                            BlogPostContent = "<p>I disse indelukkede dage kan det være svært at få tiden til at gå. Men hvorfor ikke bruge tiden med de små i hjemmet og lav noget nyt pynt til væggene? I disse indelukkede dage kan det være svært at få tiden til at gå. Men hvorfor ikke bruge tiden med de små i hjemmet og lav noget nyt pynt til væggene?</p><p>Med Pouring-Fluid og hobbymaling kan man lave flotte abstrakte værker med marmoreringseffekt.Prøv det selv med disse trin.</p><p>TRIN 1. Læg alle materialerne frem: Lærred, maling, Pouring-Fluid, plastkrus, rørepinde/ispinde, gummihandsker, underlag og noget, der hæver lærredet op fra underlaget.</p><p>Hver opmærksom på at 150 ml Pouring-Fluid er lige akkurat nok til et lærred på 30 x 30 cm.</p><p>TRIN 2. Hæld lidt af hver farve maling du vil bruge op i hvert sit krus. Hæld Pouring-Fluid oveni. Blandingen skal være så flydende, at den løber.</p><p>TRIN 3. Rør så malingen og Pouring-Fluid bliver godt blandet.</p><p>TRIN 4.Tag et nyt krus og hæld den hvide blanding i først. Hæld derefter en anden farve ned i midten. Efterfølgende hælder du en tredje farve ned i midten.TRIN 5.Stik forsigtigt rørepinden ned midt i og træk farven ud i siden.</p><p>TRIN 6.Læg lærredet ovenpå kruset og vend det hele, så lærredet ender nederst.</p><p>TRIN 7.Løft kruset så al malingen løber ud.</p><p>TRIN 8. Løft lærredet og vip det til siderne, så malingen løber.</p><p>TRIN 9.Hæld flere farveblandinger i kruset, gerne flere forskellige farver, og fortsæt til lærredet er dækket. Lad det også løbe ned ad siderne.</p><p>TRIN 10.Mal linjer på maleriet ved at hælde en ren farveblanding på.</p><p>TRIN 11.Bland evt. en fjerde farve med (her er brugt blå).</p><p>TRIN 12.Løft lærredet igen og lad farverne løbe til du er tilfreds. Vær opmærksom på at farverne løber lidt videre af sig selv, når du lægger lærredet ned igen. Lad værket tørre i mindst 24 timer</p><p>Nu har i laver et flot værk der kan hænges på vægge og give nyt liv i rummet. </p>",
-                            BlogPostDate = new DateTime(2020, 5, 22, 11, 27, 33, 746, DateTimeKind.Local).AddTicks(7459),
+                            BlogPostContent = "I disse indelukkede dage kan det være svært at få tiden til at gå. Men hvorfor ikke bruge tiden med de små i hjemmet og lav noget nyt pynt til væggene? I disse indelukkede dage kan det være svært at få tiden til at gå. Men hvorfor ikke bruge tiden med de små i hjemmet og lav noget nyt pynt til væggene? Med Pouring-Fluid og hobbymaling kan man lave flotte abstrakte værker med marmoreringseffekt.Prøv det selv med disse trin. TRIN 1. Læg alle materialerne frem: Lærred, maling, Pouring-Fluid, plastkrus, rørepinde/ispinde, gummihandsker, underlag og noget, der hæver lærredet op fra underlaget. Hver opmærksom på at 150 ml Pouring-Fluid er lige akkurat nok til et lærred på 30 x 30 cm. TRIN 2. Hæld lidt af hver farve maling du vil bruge op i hvert sit krus. Hæld Pouring-Fluid oveni. Blandingen skal være så flydende, at den løber.TRIN 3. Rør så malingen og Pouring-Fluid bliver godt blandet. TRIN 4. Tag et nyt krus og hæld den hvide blanding i først. Hæld derefter en anden farve ned i midten. Efterfølgende hælder du en tredje farve ned i midten.TRIN 5.Stik forsigtigt rørepinden ned midt i og træk farven ud i siden. TRIN 6.Læg lærredet ovenpå kruset og vend det hele, så lærredet ender nederst. TRIN 7.Løft kruset så al malingen løber ud. TRIN 8. Løft lærredet og vip det til siderne, så malingen løber. TRIN 9.Hæld flere farveblandinger i kruset, gerne flere forskellige farver, og fortsæt til lærredet er dækket. Lad det også løbe ned ad siderne. TRIN 10.Mal linjer på maleriet ved at hælde en ren farveblanding på. TRIN 11.Bland evt. en fjerde farve med (her er brugt blå). TRIN 12.Løft lærredet igen og lad farverne løbe til du er tilfreds. Vær opmærksom på at farverne løber lidt videre af sig selv, når du lægger lærredet ned igen. Lad værket tørre i mindst 24 timer. Nu har i laver et flot værk der kan hænges på vægge og give nyt liv i rummet.",
+                            BlogPostDate = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(8480),
                             BlogPostTitle = "Mal med de små"
                         },
                         new
                         {
                             BlogPostId = 6,
-                            BlogPostContent = "<p>Klip flotte gækkebreve med detaljerede mønstre af påskekyllinger og påskeliljer. Du kan klippe ud fra gækkebrev skabelonerne, du finder her på siden eller lave dine egne flotte designs.</p><p><h3>Step 1.</h3><p>Find evt.gækkebrev skabelonerne, og klip omridset af skabelonen ud.</p><h3>Step 2.</h3><p>Fold et A4 papir efter anvisningen på kabelonarket.Vær opmærksom på at hjørnerne mødes, så gækkebrevet kan foldes ud.Sæt skabelonen fast med clips og klip med en god, spids saks.</p><h3>Step 3.</h3><p>Line op med kanterne og lim fast til karton. Flere version som du har løst. Så kan du sende det til bedsteforældrene eller vennerne og håbe de ikke kan gætte det.</p> ",
-                            BlogPostDate = new DateTime(2020, 5, 22, 11, 27, 33, 746, DateTimeKind.Local).AddTicks(7474),
+                            BlogPostContent = "Klip flotte gækkebreve med detaljerede mønstre af påskekyllinger og påskeliljer. Du kan klippe ud fra gækkebrev skabelonerne, du finder her på siden eller lave dine egne flotte designs. Step 1. Find evt.gækkebrev skabelonerne, og klip omridset af skabelonen ud. Step 2. Fold et A4 papir efter anvisningen på kabelonarket.Vær opmærksom på at hjørnerne mødes, så gækkebrevet kan foldes ud.Sæt skabelonen fast med clips og klip med en god, spids saks. Step 3. Line op med kanterne og lim fast til karton. Flere version som du har løst. Så kan du sende det til bedsteforældrene eller vennerne og håbe de ikke kan gætte det.",
+                            BlogPostDate = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(8483),
                             BlogPostTitle = "Gækkebrev med påskekylling"
                         },
                         new
                         {
                             BlogPostId = 7,
-                            BlogPostContent = "<p>Med Posca tusch kan du tegne på sten med hobbymaling. Tuschen er dækkende og tørrer hurtigt - derfor er den helt perfekt at bruge til at male på sten.</p><h3>Trin 1</h3><p>Tegn og mal fine figurer og motiver på sten med Posca tuscher.</p><h3>Trin 2</h3><p>Giv evt.stenen en gang lak for at bevarer motiverne længere.</p><p>Der er mange måde motiver og materialer at bruge Posca tusserne med.</p>",
-                            BlogPostDate = new DateTime(2020, 5, 22, 11, 27, 33, 746, DateTimeKind.Local).AddTicks(7490),
+                            BlogPostContent = "Med Posca tusch kan du tegne på sten med hobbymaling. Tuschen er dækkende og tørrer hurtigt - derfor er den helt perfekt at bruge til at male på sten. Trin 1 Tegn og mal fine figurer og motiver på sten med Posca tuscher. Trin 2 Giv evt.stenen en gang lak for at bevarer motiverne længere. Der er mange måde motiver og materialer at bruge Posca tusserne med.",
+                            BlogPostDate = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(8487),
                             BlogPostTitle = "Posca på sten til nye have dekorationer"
                         },
                         new
                         {
                             BlogPostId = 8,
-                            BlogPostContent = "<p>Med en bullet journal kan du skrive noter, lave lister samt bruge den som kalender. En bullet journal bruges både til at give én overblik over det, man har gang i, men også som et afstressende øjeblik i hverdagen. Kom nemt i gang med brug af øvehæftet.</p><h3>Trin 1</h3><p>Skriv og tegn de lister kalendere eller aktivitets sporinger du vil.</p><h3>Trin 2</h3><p>Tilføj farver med dine tusser(ofte vandbaserede, da alkoholbaserede for det meste går igennem sidernes papir).</p><h3>Trin 3</h3><p>Øvehæftet gør det nemt at finde inspiration og skabe stemninger i bogen.</p><p>Mangler du mere inspiration? Der er masser af folk på nettet der giver tips og tricks til hvordan de laver deres bullet journal, men de vil altid være personlige for dem der bruger dem.Prøv det selv med vores samling af begyndervenlige bullet journal materialer.</p>",
-                            BlogPostDate = new DateTime(2020, 5, 22, 11, 27, 33, 746, DateTimeKind.Local).AddTicks(7504),
+                            BlogPostContent = "Med en bullet journal kan du skrive noter, lave lister samt bruge den som kalender. En bullet journal bruges både til at give én overblik over det, man har gang i, men også som et afstressende øjeblik i hverdagen. Kom nemt i gang med brug af øvehæftet.Trin 1 Skriv og tegn de lister kalendere eller aktivitets sporinger du vil. Trin 2 Tilføj farver med dine tusser(ofte vandbaserede, da alkoholbaserede for det meste går igennem sidernes papir). Trin 3 Øvehæftet gør det nemt at finde inspiration og skabe stemninger i bogen. Mangler du mere inspiration? Der er masser af folk på nettet der giver tips og tricks til hvordan de laver deres bullet journal, men de vil altid være personlige for dem der bruger dem.Prøv det selv med vores samling af begyndervenlige bullet journal materialer.",
+                            BlogPostDate = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(8490),
                             BlogPostTitle = "Start din bullet journal Rejse"
                         });
                 });
@@ -130,8 +130,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             BlogPostCommentId = 1,
-                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(2590),
-                            BlogPostCommentPublishDate = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(1561),
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(887),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(434),
                             BlogPostCommentText = "Jeg har været glade for Touch Twin marker og bruger dem i mange projekter, dog ønsker jeg Copic tusser da de ser gode ud. ",
                             BlogPostCommentUser = "Helle H",
                             BlogPostId = 2
@@ -139,8 +139,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             BlogPostCommentId = 2,
-                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(6337),
-                            BlogPostCommentPublishDate = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(6280),
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(1950),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(1929),
                             BlogPostCommentText = "Copic tuscher er dyre men helt klart den bedste på marked!",
                             BlogPostCommentUser = "Anja K",
                             BlogPostId = 2
@@ -148,8 +148,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             BlogPostCommentId = 3,
-                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(6498),
-                            BlogPostCommentPublishDate = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(6480),
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(1997),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(1994),
                             BlogPostCommentText = "Er glade for mine design twin marker.",
                             BlogPostCommentUser = "Anna M",
                             BlogPostId = 2
@@ -157,8 +157,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             BlogPostCommentId = 4,
-                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(6613),
-                            BlogPostCommentPublishDate = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(6594),
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2023),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2019),
                             BlogPostCommentText = "Malene Rye er en af mine yndlings kunstner, elsker hendes billeder!",
                             BlogPostCommentUser = "Lilje P",
                             BlogPostId = 3
@@ -166,8 +166,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             BlogPostCommentId = 5,
-                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(6726),
-                            BlogPostCommentPublishDate = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(6706),
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2047),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2043),
                             BlogPostCommentText = "Flotte billeder, som jeg vil elske at have hængende derhjemme.",
                             BlogPostCommentUser = "Ulla H",
                             BlogPostId = 3
@@ -175,8 +175,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             BlogPostCommentId = 6,
-                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(6833),
-                            BlogPostCommentPublishDate = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(6815),
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2074),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2070),
                             BlogPostCommentText = "Spændende!",
                             BlogPostCommentUser = "Helle K",
                             BlogPostId = 4
@@ -184,8 +184,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             BlogPostCommentId = 7,
-                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(6947),
-                            BlogPostCommentPublishDate = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(6929),
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2098),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2094),
                             BlogPostCommentText = "Fine billeder maler også selv med vandfarver og får nogle virkelig unikke billeder.",
                             BlogPostCommentUser = "Grethe G",
                             BlogPostId = 4
@@ -193,8 +193,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             BlogPostCommentId = 8,
-                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(7048),
-                            BlogPostCommentPublishDate = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(7032),
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2122),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2118),
                             BlogPostCommentText = "Det er virkelig sjovt at lave de billeder, og alle roser mine billeder.",
                             BlogPostCommentUser = "Dorthe F",
                             BlogPostId = 5
@@ -202,8 +202,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             BlogPostCommentId = 9,
-                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(7111),
-                            BlogPostCommentPublishDate = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(7103),
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2146),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2143),
                             BlogPostCommentText = "Det griser lidt på bordet men jeg får nogle flotte billeder",
                             BlogPostCommentUser = " Sanne S",
                             BlogPostId = 5
@@ -211,8 +211,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             BlogPostCommentId = 10,
-                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(7190),
-                            BlogPostCommentPublishDate = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(7154),
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2172),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2169),
                             BlogPostCommentText = "Det ser sjov ud det skal jeg helt bestemt prøve. Kan jeg bruge hvilken som helst maling til det?",
                             BlogPostCommentUser = "Johanna L",
                             BlogPostId = 5
@@ -220,8 +220,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             BlogPostCommentId = 11,
-                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(7293),
-                            BlogPostCommentPublishDate = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(7284),
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2197),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2194),
                             BlogPostCommentText = "Børnene og jeg nyder at male små sten som vi sætter rundt i byen. Det trækker lidt på smilebåndet.",
                             BlogPostCommentUser = "Inge K",
                             BlogPostId = 7
@@ -229,8 +229,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             BlogPostCommentId = 12,
-                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(7346),
-                            BlogPostCommentPublishDate = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(7339),
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2221),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2218),
                             BlogPostCommentText = "En rigtig god lille DIY gave til alle, og desuden også flot bordpynt eller bordkort til konfirmationer.",
                             BlogPostCommentUser = "Karen S",
                             BlogPostId = 7
@@ -238,8 +238,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             BlogPostCommentId = 13,
-                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(7396),
-                            BlogPostCommentPublishDate = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(7388),
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2245),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2242),
                             BlogPostCommentText = "Hyggelig tidsfordriv. Min mand tværtimod synes vi har nok dekoretet sten i huset :-D",
                             BlogPostCommentUser = "Lene G",
                             BlogPostId = 7
@@ -247,8 +247,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             BlogPostCommentId = 14,
-                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(7543),
-                            BlogPostCommentPublishDate = new DateTime(2020, 5, 22, 11, 27, 33, 747, DateTimeKind.Local).AddTicks(7534),
+                            BlogPostCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2269),
+                            BlogPostCommentPublishDate = new DateTime(2020, 5, 26, 15, 59, 51, 597, DateTimeKind.Local).AddTicks(2266),
                             BlogPostCommentText = "Jeg elsker at bruge tid på at finde sten og male på dem.",
                             BlogPostCommentUser = "Trine D",
                             BlogPostId = 7
@@ -828,8 +828,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             ProductCommentId = 1,
-                            ProductCommentDate = new DateTime(2020, 5, 22, 11, 27, 33, 739, DateTimeKind.Local).AddTicks(1902),
-                            ProductCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(2106),
+                            ProductCommentDate = new DateTime(2020, 5, 26, 15, 59, 51, 592, DateTimeKind.Local).AddTicks(9215),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(433),
                             ProductCommentText = "Jeg har altid i den i mine tegneredskaber, den er uundværlig i min hverdag, kan klart anbefales. ",
                             ProductCommentUser = "Karen J",
                             ProductId = 1
@@ -837,8 +837,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             ProductCommentId = 2,
-                            ProductCommentDate = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(4811),
-                            ProductCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(4914),
+                            ProductCommentDate = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(1907),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(1958),
                             ProductCommentText = "God viskelæder.",
                             ProductCommentUser = "Marie L M",
                             ProductId = 1
@@ -846,8 +846,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             ProductCommentId = 3,
-                            ProductCommentDate = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(5086),
-                            ProductCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(5097),
+                            ProductCommentDate = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(2005),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(2010),
                             ProductCommentText = "Virkelig lækre farver og afgiver farverne flot på papiret. Bred udvalg af farver.",
                             ProductCommentUser = "Cille P",
                             ProductId = 7
@@ -855,8 +855,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             ProductCommentId = 4,
-                            ProductCommentDate = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(5149),
-                            ProductCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(5167),
+                            ProductCommentDate = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(2033),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(2037),
                             ProductCommentText = "Jeg bruger sættet til alle min kunstnværker og er glad for de forskellige nuancer der findes. Det eneste problem er at de brugt hurtigt ;-)",
                             ProductCommentUser = "Gitte Ly",
                             ProductId = 7
@@ -864,8 +864,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             ProductCommentId = 5,
-                            ProductCommentDate = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(5266),
-                            ProductCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(5285),
+                            ProductCommentDate = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(2059),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(2063),
                             ProductCommentText = "Fin produkt.",
                             ProductCommentUser = "Lars Kjeld",
                             ProductId = 7
@@ -873,8 +873,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             ProductCommentId = 6,
-                            ProductCommentDate = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(5390),
-                            ProductCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(5409),
+                            ProductCommentDate = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(2088),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(2092),
                             ProductCommentText = "Er glad for min sæt dog synes jeg det er lige til den dyre side.",
                             ProductCommentUser = "Ann L",
                             ProductId = 7
@@ -882,8 +882,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             ProductCommentId = 7,
-                            ProductCommentDate = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(5468),
-                            ProductCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(5476),
+                            ProductCommentDate = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(2113),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(2116),
                             ProductCommentText = "Gode til at tegne nogle linjer skarp op, kan anbefales.",
                             ProductCommentUser = "Frederikke J",
                             ProductId = 10
@@ -891,8 +891,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             ProductCommentId = 8,
-                            ProductCommentDate = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(5519),
-                            ProductCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(5527),
+                            ProductCommentDate = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(2138),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(2142),
                             ProductCommentText = "Jeg elsker elsker disse tucher og jeg sparer op til flere af dem",
                             ProductCommentUser = "Amailie G",
                             ProductId = 22
@@ -900,8 +900,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             ProductCommentId = 9,
-                            ProductCommentDate = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(5624),
-                            ProductCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(5643),
+                            ProductCommentDate = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(2163),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(2167),
                             ProductCommentText = "Kvalitets tucher der er gode til mange ting.",
                             ProductCommentUser = "Helena M",
                             ProductId = 22
@@ -909,8 +909,8 @@ namespace kreaTid.Migrations
                         new
                         {
                             ProductCommentId = 10,
-                            ProductCommentDate = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(5750),
-                            ProductCommentLastUpdated = new DateTime(2020, 5, 22, 11, 27, 33, 745, DateTimeKind.Local).AddTicks(5769),
+                            ProductCommentDate = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(2189),
+                            ProductCommentLastUpdated = new DateTime(2020, 5, 26, 15, 59, 51, 596, DateTimeKind.Local).AddTicks(2193),
                             ProductCommentText = " Gode tuscher jeg bruger dem til kreative ting med mine børnebørn",
                             ProductCommentUser = "Jytte E",
                             ProductId = 22

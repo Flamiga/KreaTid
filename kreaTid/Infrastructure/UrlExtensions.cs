@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace MbmStore.Infrastructure
+namespace kreaTid.Infrastructure
 {
     public static class UrlExtensions
     {

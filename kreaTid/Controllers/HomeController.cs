@@ -24,7 +24,7 @@ namespace kreaTid.Controllers
         // GET: Products
         public async Task<IActionResult> Index()
         {
-            var kreaTidContext = _context.Product.Include(p => p.Category).Include (p => p.ProductImgs);
+            var kreaTidContext = _context.Product.Include(p => p.Category).Include(p => p.ProductImgs);
             return View(await kreaTidContext.ToListAsync());
         }
 

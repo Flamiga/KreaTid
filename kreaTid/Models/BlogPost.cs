@@ -15,7 +15,6 @@ namespace kreaTid.Models
 
         public string BlogPostContent { get; set; }
 
-
         public List<BlogPostImg> BlogPostImgs { get; set; }
 
         public List<BlogPostComment> BlogPostComments { get; set; }

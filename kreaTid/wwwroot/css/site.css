@@ -132,16 +132,11 @@ h4 {
 
 .grid-container {
     display: grid;
-    height: 300px;
     align-content: space-evenly;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     grid-auto-flow: row;
     grid-gap: 10px;
     padding: 10px;
-    float: left;
-    column-width: 100px;
-    column-span: all;
-    grid-column: auto;
 }
 
     .grid-container > div {
@@ -158,6 +153,18 @@ h4 {
         }
 
 
+
+/*STYLING AF INSPIRATIONSIDEN */
+
+.bp-content {
+    font-size: 1em;
+    height: auto;
+}
+
+h4 {
+    color: white;
+    font-weight: 400;
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */

@@ -10,6 +10,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using kreaTid.Data;
+using Microsoft.AspNetCore.Http;
+using kreaTid.Models.ViewModels;
 
 namespace kreaTid
 {
@@ -26,7 +28,10 @@ namespace kreaTid
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddMemoryCache();
+            services.AddSession();
+            services.AddScoped<Cart>(sp => SessionCart.GetCart(sp));
             services.AddDbContext<kreaTidContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("kreaTidContext")));
         }
@@ -37,6 +42,8 @@ namespace kreaTid
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSession();
+                app.UseRouting();
             }
             else
             {

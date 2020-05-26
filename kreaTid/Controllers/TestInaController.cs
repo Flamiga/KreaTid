@@ -21,9 +21,6 @@ namespace kreaTid.Controllers
         }
 
 
-
-
-
         // GET: Products
         public async Task<IActionResult> Index()
         {

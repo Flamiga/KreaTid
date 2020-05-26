@@ -43,7 +43,7 @@
     {
         <div>
             @product.ProductName
-            @foreach (ProductImg BPI in product.ProductImgs.Take(1))
+            @foreach (ProductImg BPI in product.ProductImgs.Where(p => p.ProductImgType == "productImg"))
             {
                 <p>@await Html.PartialAsync("_Productimg", BPI)</p>
             }
@@ -54,7 +54,5 @@
     }
 
 </div>
-
-
 
 

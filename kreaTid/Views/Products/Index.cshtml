@@ -1,19 +1,12 @@
-﻿@model IEnumerable<kreaTid.Models.Product>
+﻿@using kreaTid.Models;
 
-@{
-    ViewData["Title"] = "Index";
-}
+@model IEnumerable<kreaTid.Models.Product>
 
-<h1>Index</h1>
-
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
             <th>
+
                 @Html.DisplayNameFor(model => model.ProductName)
             </th>
             <th>
@@ -25,9 +18,15 @@
             <th>
                 @Html.DisplayNameFor(model => model.Category)
             </th>
-            <th></th>
+            <th>
+                <b>Comments</b>
+            </th>
+            <th>
+                <b>Images</b>
+            </th>
         </tr>
     </thead>
+
     <tbody>
         @foreach (var item in Model)
         {
@@ -42,16 +41,30 @@
                     @Html.DisplayFor(modelItem => item.ProductDescription)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Category.CategoryId)
+                    @Html.DisplayFor(modelItem => item.Category.CategoryName)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+                    @*<div>
+                            @foreach (ProductComment pc in item.ProductComments)
+                                {
+                            <p>@await Html.PartialAsync("_ProductComment", pc)</p>
+                                }
+                        </div>*@
+                </td>
+                <td>
+                    <div>
+                        @foreach (ProductImg pc in item.ProductImgs)
+                        {
+                            <p>@await Html.PartialAsync("_ProductImg", pc)</p>
+                        }
+
+                        @await Html.PartialAsync("_AddToCartButton", (Product)item)
+
+                    </div>
                 </td>
             </tr>
         }
-
     </tbody>
-</table>
 
+
+</table>
