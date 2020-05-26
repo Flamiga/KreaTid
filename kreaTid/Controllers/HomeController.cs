@@ -6,22 +6,28 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using kreaTid.Models;
+using kreaTid.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace kreaTid.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly kreaTidContext _context;
+
+        public HomeController(kreaTidContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public IActionResult Index()
+        // GET: Products
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var kreaTidContext = _context.Product.Include(p => p.Category).Include (p => p.ProductImgs);
+            return View(await kreaTidContext.ToListAsync());
         }
+
 
         public IActionResult Privacy()
         {
