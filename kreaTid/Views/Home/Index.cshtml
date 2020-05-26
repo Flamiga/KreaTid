@@ -1,5 +1,5 @@
 ﻿@using kreaTid.Models;
-@model IEnumerable<Product>
+@model IEnumerable<Product> 
 
 @{
     ViewData["Title"] = "Home Page";
@@ -25,12 +25,10 @@
 <div id="divider" class="center"> </div>
 
 <div class="grid-container">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
+
 
 </div>
+
 
 <div class="center" style="padding:20px;">
     <h4>Shop</h4>
@@ -38,22 +36,25 @@
 
 <div id="divider" class="center"> </div>
 
+
 <div class="grid-container">
 
-    @foreach (Product product in Model.Take(6))
+    @foreach (Product product in Model.Take(8))
     {
-    <div>
+        <div>
             @product.ProductName
-        @foreach (ProductImg BPI in product.ProductImgs.Where(p => p.ProductImgType=="productImg") )
-        {
-            <p>@await Html.PartialAsync("_Productimg", BPI)</p>
-        }
+            @foreach (ProductImg BPI in product.ProductImgs.Take(1))
+            {
+                <p>@await Html.PartialAsync("_Productimg", BPI)</p>
+            }
 
-        @product.ProductPrice
-   
-    </div>
+            @product.ProductPrice
+
+        </div>
     }
 
 </div>
 
-   
+
+
+

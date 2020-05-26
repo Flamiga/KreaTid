@@ -134,11 +134,14 @@ h4 {
     display: grid;
     height: 300px;
     align-content: space-evenly;
-    grid-template-columns: auto auto;
-    grid-auto-flow:row;
+    grid-template-columns: auto auto auto auto;
+    grid-auto-flow: row;
     grid-gap: 10px;
     padding: 10px;
-
+    float: left;
+    column-width: 100px;
+    column-span: all;
+    grid-column: auto;
 }
 
     .grid-container > div {
@@ -146,6 +149,8 @@ h4 {
         text-align: center;
         padding: 10px 0;
         font-size: 30px;
+        font-family: avenir;
+        font-size: 12px;
     }
 
         .grid-container > div:hover {
