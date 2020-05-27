@@ -8591,19 +8591,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\John\\.nuget\\packages\\": {}
+    "C:\\Users\\Bruger\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\kreaTid.csproj",
+      "projectUniqueName": "C:\\Users\\Bruger\\Documents\\Webudvekling\\Semester projekt\\kreaTid-gitkraken\\KreaTid\\kreaTid\\kreaTid.csproj",
       "projectName": "kreaTid",
-      "projectPath": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\kreaTid.csproj",
-      "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\John\\EFIF\\OneDrive - EFIF\\Webdevelopment\\KreaTid\\kreaTid\\obj\\",
+      "projectPath": "C:\\Users\\Bruger\\Documents\\Webudvekling\\Semester projekt\\kreaTid-gitkraken\\KreaTid\\kreaTid\\kreaTid.csproj",
+      "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bruger\\Documents\\Webudvekling\\Semester projekt\\kreaTid-gitkraken\\KreaTid\\kreaTid\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8664,6 +8664,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8672,7 +8678,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
