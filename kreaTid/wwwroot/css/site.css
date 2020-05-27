@@ -9,32 +9,18 @@ body {
     padding: 0;
 }
 
-
-
-
-/* Container holding the image and the text */
-.container {
-    background-size: 100%;
-    position: center;
-    text-align: center;
-    color: white;
-}
-
-
-/* Cover Image*/
-
-img {
-    width: 50%;
-    margin-left: -10%;
-}
-
-
 /* Centered text */
 .centered {
     position: absolute;
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+/* Cover Image*/
+
+img {
+    width: 50%;
+    margin-left: -10%;
 }
 
 /* NAV BAR DESIGN */
@@ -129,9 +115,7 @@ h2 {
 }
 
 h3 {
-    font: avenir;
-    font-size: 25px;
-    font: avenir;
+   font-size: 25px;
     font-weight: lighter;
     color: white;
     position: relative;
@@ -139,9 +123,7 @@ h3 {
 }
 
 h4 {
-    font: avenir;
     font-size: 25px;
-    font: avenir;
     font-weight: lighter;
     color: #767676;
     position: relative;
@@ -191,7 +173,8 @@ h4 {
 
 
 
-/*STYLING AF INSPIRATIONSIDEN */
+/*STYLING AF INSPIRATIONSIDEN 
+    -------------------------------------------------- */
 
 .bp-content {
     font-size: 1em;
@@ -202,6 +185,28 @@ h4 {
     color: #767676;
     font-weight: 400;
 }
+
+/*STYLING AF SHOP --------------------------------------------------*/
+
+.table{
+    border-collapse:collapse;
+    width: 100%;
+}
+
+thead{
+    
+    border-bottom: 3px solid #000000;
+}
+tbody tr {
+    vertical-align: top;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
 
 /* Sticky footer styles
 -------------------------------------------------- */
